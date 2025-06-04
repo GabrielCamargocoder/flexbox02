@@ -1,0 +1,148 @@
+@charset 'UTF-8';
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(43, 43, 43);
+    height: 100vh;
+}
+
+header{
+    border-bottom: 1px solid white;
+    background-color:#020403;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+header h1{
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+}
+main{
+    background-color:#031220;
+    height: auto;
+}
+
+main > .menu > nav{
+
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 20px;
+
+}
+
+
+main > div.menu> nav > a{
+    
+    padding: 10px;
+    background-color:#002540;
+    margin: 10px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 0 200px;
+  
+
+}
+
+main > div.menu > nav > a:hover{
+
+   
+    
+    background-color: #08437b;
+    transition: background-color .3s;
+    
+    
+}
+
+.container{
+    margin: auto;
+   
+    margin-top: 100px;
+    margin-bottom: 80px;
+    padding: 10px;
+    background-color: #073158;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container > .img-produto{
+    background: url(imagem_empreend-p.jpg) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 200px;
+}
+
+.container > .descricao-produto > h2{
+    color:white;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+.container > .descricao-produto  > p{
+
+    color: white;
+    text-align: justify;
+
+}
+
+
+
+.container > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+
+
+
+.container > .btn-comec > a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    margin-top: 20px;
+    width: 280px;
+   
+    
+    
+}
+footer{
+    margin: auto;
+    margin-top: -40px;
+    height: 120px;
+    border-top: 2px solid rgb(0, 83, 110);
+}
+footer >p{
+    
+    padding-top: 20px;
+    font-size: 1.5em;
+    color: white;
+    
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+
+}
