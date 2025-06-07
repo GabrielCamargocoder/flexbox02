@@ -4,6 +4,8 @@
     padding: 0px;
 }
 
+@media screen and (max-width: 768px){
+
 body{
     background-color: rgb(43, 43, 43);
     height: 100vh;
@@ -69,7 +71,7 @@ main > div.menu > nav > a:hover{
 
 .container{
     margin: auto;
-   
+    height: 300px;
     margin-top: 100px;
     margin-bottom: 80px;
     padding: 10px;
@@ -83,14 +85,15 @@ main > div.menu > nav > a:hover{
     background: url(imagem_empreend-p.jpg) no-repeat center center;
     background-size: contain;
     display: block;
-    height: 200px;
+    height: 100px;
 }
 
 .container > .descricao-produto > h2{
     color:white;
-    font-size: 2em;
+    font-size: 30px;
     font-weight: 400;
     margin-top: 10px;
+    width: 80vw;
 
 }
 
@@ -98,6 +101,7 @@ main > div.menu > nav > a:hover{
 
     color: white;
     text-align: justify;
+    font-size: 12px;
 
 }
 
@@ -110,7 +114,7 @@ main > div.menu > nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -127,8 +131,8 @@ main > div.menu > nav > a:hover{
     padding: 10px;
     text-align: center;
     background-color: rgb(12, 12, 12);
-    margin-top: 20px;
-    width: 280px;
+    margin-top:-25px;
+    width: 140px;
     
 }
 
@@ -156,3 +160,5 @@ footer >p{
     
 
 }
+
+ }
