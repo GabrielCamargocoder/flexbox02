@@ -13,7 +13,7 @@ body{
 
 header{
     border-bottom: 1px solid white;
-    background: linear-gradient(to right, rgb(0, 41, 74), black);
+    background: linear-gradient(to right, #01cfe6, #202020);
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
@@ -28,7 +28,7 @@ header h1{
     text-align: center;
 }
 main{
-    background-color:#031220;
+    background-color:#202020;
    
 }
 
@@ -44,7 +44,7 @@ main > .menu > nav{
 main > div.menu> nav > a{
     
     padding: 10px;
-    background-color:#002540;
+    background-color: #08646e;
     margin: 10px;
     color: white;
     font-weight: 400;
@@ -62,7 +62,7 @@ main > div.menu > nav > a:hover{
 
    
     
-    background-color: white;
+    background-color: #04a8ba;
     color: #002540;
     transition: background-color .3s;
     
@@ -75,8 +75,8 @@ main > div.menu > nav > a:hover{
     margin-top: 100px;
     margin-bottom: 80px;
     padding: 10px;
-    background-color: #023458;
-    border: 1px solid black;
+    
+    box-shadow: 2px 2px 5px  #0291a4a5;
     font-family: Arial, Helvetica, sans-serif;
 
 }
