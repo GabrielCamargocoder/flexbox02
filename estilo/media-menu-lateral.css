@@ -6,7 +6,7 @@
 
 main > nav.menu-lateral{
 
-    width: 80px;
+    width: 60px;
     background:  #0db2c4;
     padding: 40px 0 40px 1%;
     padding-top: 80px;
@@ -30,7 +30,7 @@ main > nav > div.btn-menu > i{
     color: white;
     font-size: 40px;
     cursor: pointer;
-    padding-left: 10px;
+  
     margin-left: 0%;
 
 }
@@ -78,7 +78,7 @@ nav.menu-lateral.expandir  .link{
 ul > li.item-menu > a > .icone{
 
     font-size: 40px;
-    margin-left: -10px;
+    margin-left: -20px;
    
 }
 

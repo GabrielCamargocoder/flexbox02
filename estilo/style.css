@@ -71,18 +71,19 @@ main > div.menu > nav > a:hover{
 
 .container{
     margin: auto;
-    height: 300px;
+    height: 340px;
+    width: 70vw;
     margin-top: 100px;
     margin-bottom: 80px;
     padding: 10px;
-    width: 90vw;
+  
     box-shadow: 2px 2px 5px  #0291a4a5;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .container > .img-produto{
-    background: url(imagem_empreend-p.jpg) no-repeat center center;
+    background: url(../imagem_empreend-p.jpg) no-repeat center center;
     background-size: contain;
     display: block;
     height: 100px;
@@ -90,10 +91,10 @@ main > div.menu > nav > a:hover{
 
 .container > .descricao-produto > h2{
     color:white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     margin-top: 10px;
-    width: 80vw;
+    width: 60vw;
 
 }
 
@@ -128,11 +129,11 @@ main > div.menu > nav > a:hover{
     text-decoration: none;
     color: white;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     background-color: rgb(12, 12, 12);
     margin-top:-25px;
-    width: 140px;
+    width: 160px;
     
 }
 
