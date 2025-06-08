@@ -22,7 +22,7 @@ main > nav.menu-lateral{
 
 main > nav.menu-lateral.expandir{
 
-    width: 260px;
+    width: 180px;
 }
 
 main > nav > div.btn-menu > i{
@@ -41,6 +41,7 @@ ul{
 }
 ul > li.item-menu{
     margin-left:10px ;
+    padding-left: 10px;
     
 }
 
@@ -51,7 +52,7 @@ ul > li.item-menu > a{
     padding: 20px 4%;
     display: flex;
     margin-bottom: 10px;
-    padding-left: 10px;
+    
     line-height: 40px;
     
 }
