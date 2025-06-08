@@ -85,7 +85,7 @@
 
     
     .container > .img-produto{
-    background: url(imagem_empreend-p.jpg) no-repeat center center;
+    background: url(../imagem_empreend-p.jpg) no-repeat center center;
     background-size: contain;
     display: block;
     float: left;
@@ -124,10 +124,9 @@
     text-align: right;  
     font-size: 2em;
     margin-right: 10px;
-    margin-top: 40px; 
+    margin-top: 20px; 
     color: white;
 }
-
 
 
 
@@ -139,7 +138,7 @@
     padding: 10px;
     text-align: center;
     background-color: rgb(12, 12, 12);
-    margin-top: -70px;
+    margin-top: -40px;
     width: 180px;
     margin-left: 0px;
     
