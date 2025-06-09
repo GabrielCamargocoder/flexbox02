@@ -14,15 +14,15 @@
     padding-top: 15px;
     position: relative;
 }
+    header > .img-logo{
+
+        background: url(../logo-learn-.png) no-repeat center center;
+        background-size: contain;
+        height: 40px;
+    }
 
 
-
-    header h1{
-    color: white;
-    font-size: 2em;
-    font-weight: 300;
-    text-align: center;
-}
+   
     main{
     background-color:#202020;
    
