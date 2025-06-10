@@ -37,6 +37,7 @@ main > .menu > nav{
     display: flex;
     flex-flow: row wrap;
     padding-top: 20px;
+    ;
 
 }
 
@@ -53,7 +54,7 @@ main > div.menu> nav > a{
     align-items: center;
     border-radius: 5px;
     text-align: center;
-    flex: 1 0 200px;
+    flex: 0 1 400px;
   
 
 }

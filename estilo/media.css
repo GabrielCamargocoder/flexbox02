@@ -14,12 +14,7 @@
     padding-top: 15px;
     position: relative;
 }
-    header > .img-logo{
-        
-        background: url(../imagens/logo-learn-2-removebg-preview.png) no-repeat center center;
-        background-size: contain;
-        height: 120px; 
-       
+    
       
     }
 
@@ -92,14 +87,8 @@
 }
 
     
-    .container > .img-produto{
-    background: url(../imagem_empreend-p.jpg) no-repeat center center;
-    background-size: contain;
-    display: block;
-    float: left;
-    width: 200px;
-    height: 160px;
-}
+   
+
 
 
     .container > .descricao-produto{
