@@ -80,6 +80,7 @@ header h1{
 
 main{
     background-color:#202020;
+    
   
    
 }
@@ -126,7 +127,7 @@ main > div.menu > nav > a:hover{
    
     margin: auto;
     height: 340px;
-    width: 400px;
+   width: 60vw;
     margin-top: 100px;
     margin-bottom: 80px;    
     padding: 10px;
