@@ -1,8 +1,33 @@
 @charset 'UTF-8';
 
-main{
 
+@media screen and (max-width: 768px){
+
+    header{
+    border-bottom: 2px solid  rgb(0, 67, 100);
+    background: linear-gradient(to right, #01cfe6, #202020);
+    padding-bottom: 20px;
+    padding-top: 15px;
+   
     
+
+
+
+}
+
+    header > h1{
+
+        color: yellow;
+    }
+
+    main > .menu > nav{
+
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -100px;
+    
+    
+
 }
 
 
@@ -10,4 +35,38 @@ main{
     margin-top: 1200px;
 }
 
+}
 
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+
+    main > .menu > nav{
+
+    display: flex;
+    flex-flow: row wrap;
+   
+     
+
+}
+
+    main > footer{
+    margin-top: 1200px;
+}
+    
+}
+
+@media screen and (min-width:1024px) {
+    
+    main > .menu > nav{
+
+    display: flex;
+    flex-flow: row wrap;
+   
+    
+}
+
+    main > footer{
+    margin-top: 1200px;
+}
+
+}

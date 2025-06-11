@@ -81,7 +81,7 @@ header h1{
 main{
     background-color:#202020;
     padding-bottom: 20px;
-    padding-top: 20px;
+   
     
   
    
@@ -91,7 +91,7 @@ main > .menu > nav{
 
     display: flex;
     flex-flow: row wrap;
-    padding-top: 20px;
+    
     
 
 }

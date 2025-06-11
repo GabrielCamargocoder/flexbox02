@@ -9,7 +9,7 @@
 
     header{
     border-bottom: 1px solid  #00727e;
-    background: linear-gradient(to right, #0db2c4, #202020);
+    background: linear-gradient(to right, #01cfe6, #202020);
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
@@ -22,6 +22,7 @@
         color: white;
         text-align: center;
         font-size: 2em;
+        font-weight: 300;
 
     }
    
@@ -36,6 +37,7 @@
     display: flex;
     flex-flow: row wrap;
     padding-top: 20px;
+    
 
 }
 
