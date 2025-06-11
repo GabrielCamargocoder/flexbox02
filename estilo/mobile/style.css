@@ -141,7 +141,7 @@ main > div.menu > nav > a:hover{
 }
 
 .container > .img-produto{
-    background: url(../imagem_empreend-p.jpg) no-repeat center center;
+    background: url(../../imagem_empreend-p.jpg) no-repeat center center;
     background-size: contain;
     display: block;
     height: 100px;
