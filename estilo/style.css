@@ -108,7 +108,8 @@ main > div.menu> nav > a{
     align-items: center;
     border-radius: 5px;
     text-align: center;
-    flex: 0 1 400px;
+    flex: 1 1 200px;
+    align-content: center;
   
 
 }

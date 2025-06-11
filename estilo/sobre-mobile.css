@@ -5,6 +5,7 @@
 body{
 
     background-color: #202020;
+    
 }
 
    header{
@@ -26,7 +27,7 @@ header h1{
 main{
     background-color:#202020;
     padding-top: 100px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
    
 }
 
@@ -43,7 +44,7 @@ main >section{
  main > section  > article > p{
    
     text-align: justify;
-    padding-top: 20px;
+    padding-top: 2px;
     line-height: 30px;
     color:white;
     font-size: 16px;
@@ -58,6 +59,7 @@ footer{
    
     height: 90px;
     border-top: 2px solid rgb(0, 83, 110);
+    margin-bottom: -10px;
 }
 footer >p{
     
