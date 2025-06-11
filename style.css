@@ -14,17 +14,68 @@ header{
     background: linear-gradient(to right, rgb(0, 41, 74), black);
     padding-bottom: 20px;
     padding-top: 15px;
-    position: relative;
+   
+    
+
+
+
 }
 
 
+
+
+
+header > nav { 
+
+    width: 200px;
+    height: 400px;
+    background-color: #202020;
+    padding: 40px;
+    background-color: #023458;
+}
+
+header > nav > .btn-menu{
+
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+ul{
+    
+    list-style-type:none;
+}
+
+
+
+
+ul > li.item-menu > a {  
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    width: 60%;
+    padding: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+ul > li.item-menu > a:hover{
+    
+    padding-right: 80px;
+    background-color: #016ebb;
+    transition: background-color 0.3s;
+}
 
 header h1{
     color: white;
     font-size: 2em;
     font-weight: 300;
     text-align: center;
+    align-items: center;
 }
+
+
+
 main{
     background-color:#031220;
    
