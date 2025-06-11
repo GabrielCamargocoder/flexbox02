@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) {
     
     body{
-    background-color: rgb(43, 43, 43);
+    background-color:#202020;
     height: 100vh;
 }
 
@@ -16,7 +16,6 @@
 }
     
       
-    }
 
     header > h1{
 
@@ -28,6 +27,7 @@
    
     main{
     background-color:#202020;
+    padding-bottom: 20px;
    
 }
 
@@ -87,7 +87,15 @@
 }
 
     
+   .container > .img-produto{
+    background: url(../imagem_empreend-p.jpg) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 130px;
+    float: left;
+    width: 200px;
    
+}
 
 
 
