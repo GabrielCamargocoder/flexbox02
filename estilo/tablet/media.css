@@ -38,7 +38,7 @@
     flex-flow: row wrap;
     padding-top: 20px;
 
-    width: 800px;
+    width: 700px;
     margin: auto
     
 
@@ -78,9 +78,9 @@
     
     .container{
     margin: auto;
-    max-width: 80vw;
+    width: 600px;
     padding: 15px;
-    height: 240px;
+    height: 258px;
     margin-top: 100px;
     margin-bottom: 80px;
     padding: 10px;
@@ -105,7 +105,8 @@
 
 
     .container > .descricao-produto{
-    margin-left: 210px;
+    margin-left: 220px;
+    margin-top: -15px;
 
 }
 
@@ -132,9 +133,9 @@
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: right;  
-    font-size: 2em;
+    font-size: 2.2em;
     margin-right: 10px;
-    margin-top: 20px; 
+    margin-top: 32px; 
     color: white;
 }
 
