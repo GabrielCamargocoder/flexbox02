@@ -46,27 +46,47 @@
     main > div.menu> nav > a{
     
     padding: 10px;
-    background-color: #08646e;
+    box-shadow: 1px 1px 3px #04a8ba;
     margin: 10px;
     color: white;
     font-weight: 400;
     text-decoration: none;
-    
+    position: relative;
     align-items: center;
     border-radius: 5px;
     text-align: center;
     flex: 1 0 200px;
-  
+    z-index: 0;
+    overflow: hidden;
 
+}
+
+main > div.menu > nav > a::after{
+
+    content: '';
+    background-color: #01cfe6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+
+}
+
+main > div.menu > nav > a:hover::after{
+
+    width: 100%;
 }
 
     main > div.menu > nav > a:hover{
 
    
     
-    background-color: #04a8ba;
+    
     color: #002540;
-    transition: background-color .3s;
+  
     
     
 }
