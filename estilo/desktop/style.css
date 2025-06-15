@@ -1,5 +1,13 @@
 @charset 'UTF-8';
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
 @media screen and (min-width:1024px) {
     
     body{
@@ -13,14 +21,27 @@
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
+    height: 80px;
 }
     
    header > .logo > img{
 
-        height: 120px;
+        height: 30px;
+        position: absolute;
+        top: 30%;
+        left: 40%;
+       
    }   
 
-   
+   header > span{
+
+        font-size: 1.5em;
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 58%;
+        font-family: ;
+   }
    
     main{
     background-color:#202020;
