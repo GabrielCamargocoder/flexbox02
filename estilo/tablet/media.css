@@ -7,24 +7,36 @@
     height: 100vh;
 }
 
-    header{
-    border-bottom: 1px solid  #00727e;
+     header{
+    border-bottom: 1px solid  white;
     background: linear-gradient(to right, #01cfe6, #202020);
-    padding-bottom: 20px;   
-    padding-top: 15px;  
-    
+    padding-bottom: 20px;
+    padding-top: 15px;
+    position: relative;
+    height: 100px;
 }
     
-      
+   header > .logo > img{
 
-    header > h1{
+        height: 30px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        
+       
+   }   
 
+   header > span{
+
+        font-size: 1.5em;
         color: white;
-        text-align: center;
-        font-size: 2em;
-        font-weight: 300;
-
-    }
+        position: absolute;
+        top: 65%;
+        left: 42%;
+        font-family: 'Roboto';
+        font-weight: 400;
+   }
    
     main{
     background-color:#202020;
