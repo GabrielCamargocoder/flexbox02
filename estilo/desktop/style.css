@@ -4,8 +4,9 @@
 
 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: 'Roboto';
+    src: url(../../fontes/Roboto-VariableFont_wdth\,wght.ttf);
+    size: normal;
 }
 
 @media screen and (min-width:1024px) {
@@ -21,15 +22,17 @@
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
-    height: 80px;
+    height: 100px;
 }
     
    header > .logo > img{
 
         height: 30px;
         position: absolute;
-        top: 30%;
-        left: 40%;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        
        
    }   
 
@@ -38,9 +41,10 @@
         font-size: 1.5em;
         color: white;
         position: absolute;
-        top: 30%;
-        left: 58%;
-        font-family: ;
+        top: 65%;
+        left: 42%;
+        font-family: 'Roboto';
+        font-weight: 400;
    }
    
     main{
