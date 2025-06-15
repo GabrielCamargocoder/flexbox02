@@ -15,16 +15,12 @@
     position: relative;
 }
     
-      
+   header > .logo > img{
 
-    header > h1{
+        height: 120px;
+   }   
 
-        color: white;
-        text-align: center;
-        font-size: 2em;
-        font-weight: 300;
-
-    }
+   
    
     main{
     background-color:#202020;
