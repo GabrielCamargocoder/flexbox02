@@ -18,7 +18,7 @@
 
     header{
     border-bottom: 1px solid  white;
-    background: linear-gradient(to right, #01cfe6, #202020);
+    background:  #01cfe6b7;
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
@@ -27,7 +27,7 @@
     
    header > .logo > img{
 
-        height: 30px;
+        height: 40px;
         position: absolute;
         top: 40%;
         left: 50%;
