@@ -11,89 +11,31 @@ body{
     height: 100vh;
 }
 
- header{
+header{
     border-bottom: 1px solid  white;
-    background: linear-gradient(to right, #01cfe6, #202020);
+    background-color:  #01cfe6b7;
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
-    height: 80px;
+    height: 100px;
 }
     
    header > .logo > img{
 
         height: 25px;
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%,-50%);
         
        
    }   
 
-   header > span{
-
-        font-size: 1.5em;
-        color: white;
-        position: absolute;
-        top: 65%;
-        left: 25%;
-        font-family: 'Roboto';
-        font-weight: 400;
-   }
 
 
 
 
 
-header > nav { 
-
-    width: 200px;
-    height: 400px;
-    background-color: #202020;
-    padding: 40px;
-    background-color: #023458;
-}
-
-header > nav > .btn-menu{
-
-    color: white;
-    font-size: 2em;
-    cursor: pointer;
-}
-
-ul{
-    
-    list-style-type:none;
-}
-
-
-
-
-ul > li.item-menu > a {  
-    display: inline-block;
-    color: white;
-    margin: 10px;
-    width: 60%;
-    padding: 10px;
-    font-size: 1.5em;
-    text-decoration: none;
-}
-
-ul > li.item-menu > a:hover{
-    
-    padding-right: 80px;
-    background-color: #016ebb;
-    transition: background-color 0.3s;
-}
-
-header h1{
-    color: white;
-    font-size: 2em;
-    font-weight: 300;
-    text-align: center;
-    align-items: center;
-}
 
 
 
@@ -110,7 +52,7 @@ main > .menu > nav{
 
     display: flex;
     flex-flow: row wrap;
-    padding-top: 20px;
+    padding-top: 3px;
     
     
 

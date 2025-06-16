@@ -23,6 +23,7 @@ main > nav.menu-lateral{
     left: 0;
     overflow: hidden;
     z-index: 5;
+    padding-top: 130px;
     
 
 }
@@ -83,8 +84,8 @@ nav.menu-lateral.expandir  .link{
 
 ul > li.item-menu > a > .icone{
 
-    font-size: 20px;
-    margin-left: -24px;
+    font-size: 30px;
+    margin-left: -20px;
    
 }
 
