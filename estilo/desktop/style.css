@@ -17,15 +17,15 @@
 }
 
    header{
-    border-bottom: 1px solid  white;
-    background:  #01cfe6b7;
+    
+    background:  #00BBC9;
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
     height: 100px;
 }
     
-   header > .logo > img{
+  /* header > .logo > img{
     
         height: 40px;
         position: absolute;
@@ -34,7 +34,7 @@
         transform: translate(-50%,-50%);
         
        
-   }   
+   }    */  
 
    header > span{
 

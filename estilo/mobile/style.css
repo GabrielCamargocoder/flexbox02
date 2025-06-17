@@ -13,7 +13,7 @@ body{
 
 header{
     border-bottom: 1px solid  white;
-    background-color:  #01cfe6b7;
+    background-color:  #00BBC9;
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
@@ -52,7 +52,7 @@ main > .menu > nav{
 
     display: flex;
     flex-flow: row wrap;
-    padding-top: 3px;
+    padding-top: 2px;
     
     
 
