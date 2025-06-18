@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
 
 body{
     background-color: #202020;
@@ -13,30 +13,14 @@ body{
 
 header{
     border-bottom: 1px solid  white;
-    background-color:  #00BBC9;
+    background-color: #04a8ba;
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
     height: 100px;
 }
     
-   header > .logo > img{
-
-        height: 25px;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        
-       
-   }   
-
-
-
-
-
-
-
+  
 
 
 main{

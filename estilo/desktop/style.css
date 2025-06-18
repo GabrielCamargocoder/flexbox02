@@ -18,11 +18,11 @@
 
    header{
     
-    background:  #00BBC9;
+    background:  #04a8ba;
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
-    height: 100px;
+    height: 80px;
 }
     
   /* header > .logo > img{
@@ -57,7 +57,7 @@
 
     display: flex;
     flex-flow: row wrap;
-    padding-top: 20px;
+    padding-top: 10px;
     width: 900px;
     margin: auto;
 

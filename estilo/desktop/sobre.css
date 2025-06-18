@@ -10,7 +10,7 @@ body{
 
    header{
     border-bottom: 1px solid white;
-    background: linear-gradient(to right, #01cfe6, #202020);
+    background-color: #04a8ba;
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;

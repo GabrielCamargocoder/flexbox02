@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 
-@media screen and (min-width: 767px) and (max-width:1023px) {
+@media screen and (min-width: 768px) and (max-width:1023px) {
     
     body{
     background-color:#202020;
@@ -9,7 +9,7 @@
 
    header{
     
-    background-color: #00BBC9;
+    background-color: #04a8ba;
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
