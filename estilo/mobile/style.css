@@ -156,6 +156,7 @@ main > div.menu> nav > a:hover{
     padding: 5px;
     text-align: center;
     background-color:#04a8ba;
+    border-radius: 5px;
     margin-top:-28px;
     width: 160px;
     position: absolute;
