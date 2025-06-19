@@ -37,6 +37,8 @@ main > .menu > nav{
     display: flex;
     flex-flow: row wrap;
     padding-top: 2px;
+    width: 85%;
+    margin: auto;
     
     
 
