@@ -153,7 +153,7 @@ main > div.menu> nav > a:hover{
     margin: auto;
     padding: 5px;
     text-align: center;
-    background-color: rgb(12, 12, 12);
+    background-color:#04a8ba;
     margin-top:-28px;
     width: 160px;
     position: absolute;
@@ -163,13 +163,33 @@ main > div.menu> nav > a:hover{
     
 }
 
-
-.container > .btn-comec > a:hover{
-
-    background-color: rgb(53, 53, 53);
-    color: white;
+.container > .btn-comec > a::before ,.container > .btn-comec > a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
     
+    border-radius: 5px;
+    opacity: .7;
 }
+
+@keyframes pulsante {
+    100%{
+        transform: scale(1.2);
+        opacity: 0;
+    }   
+}
+
+.container > .btn-comec > a:hover::before{
+
+    animation: pulsante 1s ease-in-out infinite;
+    background-color: #01cfe6;
+}
+
+
 footer{
     margin: auto;
     margin-top: -40px;
