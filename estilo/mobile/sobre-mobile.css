@@ -12,20 +12,16 @@ body{
 
    header{
     
-    background:  #00BBC9;
+    background-color: #04a8ba;
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
+    height: 60px;
 }
 
 
 
-header h1{
-    color: white;
-    font-size: 2em;
-    font-weight: 300;
-    text-align: center;
-}
+
 main{
     background-color:#202020;
     padding-top: 100px;
