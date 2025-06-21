@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 
-@media screen and (max-width: 769px){
+@media screen and (max-width: 767px){
 
 header{
 
@@ -45,7 +45,7 @@ main > .menu > nav{
 }
 
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
 
     header{
     
@@ -74,7 +74,8 @@ main > .menu > nav{
     padding-top: 2px;
 
     width: 700px;
-    margin: auto
+    
+    margin-top: -92px;
     
 
 }
