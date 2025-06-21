@@ -31,7 +31,7 @@ body{
 
 main{
     background-color:#202020;
-    padding-top: 100px;
+   
     padding-bottom: 30px;
    
 }
@@ -42,6 +42,7 @@ main >section{
     padding: 12px;
     box-shadow: 2px 2px 5px  #0291a4a5;
     margin: auto;
+    margin-top: 100px;
    
     
 }

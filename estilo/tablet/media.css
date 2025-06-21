@@ -18,24 +18,24 @@
     
    header > .logo > img{
 
-        height: 80px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
         
        
    }   
 
    header > span{
 
-        font-size: 1.5em;
-        color: white;
-        position: absolute;
-        top: 65%;
-        left: 42%;
-        font-family: 'Roboto';
-        font-weight: 400;
+    font-size: 1.5em;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 42%;
+    font-family: 'Roboto';
+    font-weight: 400;
    }
    
     main{
