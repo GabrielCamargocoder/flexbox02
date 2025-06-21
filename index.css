@@ -45,7 +45,7 @@ main > .menu > nav{
 }
 
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
     header{
     
@@ -79,55 +79,6 @@ main > .menu > nav{
     
 
 }
-
-
-    main > div.menu> nav > a{
-    
-    padding: 10px;
-    box-shadow: 1px 1px 3px #04a8ba;
-    margin: 10px;
-    color: white;
-    font-weight: 400;
-    text-decoration: none;
-    position: relative;
-    align-items: center;
-    border-radius: 5px;
-    text-align: center;
-    flex: 1 0 200px;
-    z-index: 0;
-    overflow: hidden;
-  
-
-}
-
-  main > div.menu> nav > a::after{
-
-    content: '';
-    background-color: #01cfe6;
-    height: 100%;
-    width: 0px;
-    border: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: 0.3s ease-in-out;
-
-  }
-
-
-
-    main > div.menu > nav > a:hover::after{
-
-   width: 100%;    
-    
-    
-}
-
-  main > div.menu > nav > a:hover{
-
-    color: #003036;
-  }
 
 
     main > footer{
