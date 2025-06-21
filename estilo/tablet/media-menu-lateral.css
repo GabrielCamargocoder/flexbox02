@@ -15,7 +15,7 @@ main > nav.menu-lateral{
     left: 0;
     overflow: hidden;
     transition: .5s;
-    padding-top: 80px;
+    padding-top: 104px;
     z-index: 3;
     
 }

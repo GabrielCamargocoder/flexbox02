@@ -11,14 +11,24 @@ body{
 }
 
    header{
-    border-bottom: 1px solid white;
+   
     background-color: #04a8ba;
     padding-bottom: 20px;
     padding-top: 15px;
-    height: 60px;
+    height: 90px;
+    position: relative;
 }
 
+    header > .logo > img{
 
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+   }   
 
 
 main{
