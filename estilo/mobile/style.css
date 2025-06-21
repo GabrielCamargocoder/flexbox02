@@ -17,7 +17,7 @@ header{
     padding-bottom: 20px;
     padding-top: 15px;
     position: relative;
-    height: 80px;
+    height: 60px;
 }
     
 
@@ -47,7 +47,7 @@ main > .menu > nav{
 
     display: flex;
     flex-flow: row wrap;
-    padding-top: 2px;
+    padding-top: 4px;
     width: 100%;
     
     

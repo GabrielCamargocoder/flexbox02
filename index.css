@@ -3,29 +3,37 @@
 
 @media screen and (max-width: 768px){
 
-    header{
-    
-    background: #04a8ba;
+header{
+
+    background-color: #04a8ba;
     padding-bottom: 20px;
     padding-top: 15px;
-    
-   
-    
-
-
-
+    position: relative;
+    height: 80px;
 }
 
-   
 
-    main > .menu > nav{
+header > .logo > img{
+
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}     
+
+
+
+main > .menu > nav{
 
     display: flex;
     flex-flow: row wrap;
-    margin-top: -92px;
-    
-    
-    
+    margin-top: -90px;
+
+
+
 
 }
 
