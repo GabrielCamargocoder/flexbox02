@@ -146,8 +146,65 @@ main > .menu > nav{
     
 }
 
-    main > footer{
+     footer{
     margin-top: 1200px;
-}
+    color: white;
+     border-top: 2px solid rgb(0, 83, 110);
+    padding-top: 30px;
+    padding-bottom: 0px;
+    height: 320px;
+    
 
 }
+
+    .interface{
+        max-width: 85%;
+        margin: 0 auto;
+       
+    }
+
+    footer .line-1 {
+
+        text-align: center;
+        color: #01cfe6;
+        font-size: 2rem;
+        
+    }
+
+    footer .line-2{
+        padding: 30px 0px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 90px;
+
+    }
+
+    footer .line-2 > .box-line{
+
+        max-width: calc(100% / 3);
+    }
+     footer .line-2  > .box-line > img{
+
+       
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .line-2 > .box-line > h3{
+
+        color: #04a8ba;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+
+    .line-2 > .box-line > .links > a{
+        display: block;
+        color: white;
+        margin-bottom: 20px;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+}
+

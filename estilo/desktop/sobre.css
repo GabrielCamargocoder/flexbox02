@@ -60,25 +60,5 @@ main >section{
 
 }
 
-footer{
-    margin: auto;
-    margin-top: 20px;
-    height: 70px;
-    border-top: 2px solid rgb(0, 83, 110);
-    margin-top: 300px;
-    
-    
-}
-footer >p{
-    
-    padding-top: 20px;
-    font-size: 1.5em;
-    color: white;
-    width: 300px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    margin: auto;
-  
 
-}
 }

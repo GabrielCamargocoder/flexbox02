@@ -52,7 +52,7 @@
     display: flex;
     flex-flow: row wrap;
     padding-top: 10px;
-    width: 900px;
+    max-width: 900px;
     margin: auto;
 
 }
@@ -221,23 +221,9 @@ main > div.menu > nav > a:hover::after{
 }
 
 
-footer{
-    margin: auto;
-    margin-top: -40px;
-    height: 90px;
-    border-top: 2px solid rgb(0, 83, 110);
-}
-footer >p{
-    
-    padding-top: 20px;
-    font-size: 1.5em;
-    color: white;
-    
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    
 
-}
-   
+
+
+
 }
 
