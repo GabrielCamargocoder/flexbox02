@@ -140,19 +140,19 @@ main > .menu > nav{
     
     main > .menu > nav{
 
-    display: flex;
-    flex-flow: row wrap;
+        display: flex;
+        flex-flow: row wrap;
    
     
 }
 
-     footer{
-    margin-top: 1200px;
-    color: white;
-     border-top: 2px solid rgb(0, 83, 110);
-    padding-top: 30px;
-    padding-bottom: 0px;
-    height: 320px;
+    footer{
+        margin-top: 1200px;
+        color: white;
+        border-top: 2px solid rgb(0, 83, 110);
+        padding-top: 30px;
+        padding-bottom: 0px;
+        height: 320px;
     
 
 }
@@ -193,7 +193,7 @@ main > .menu > nav{
     .line-2 > .box-line > h3{
 
         color: #04a8ba;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         font-size: 2em;
     }
 
@@ -204,7 +204,68 @@ main > .menu > nav{
         text-decoration: none;
         font-size: 1.2em;
         font-family: Arial, Helvetica, sans-serif;
+        transition: .2s;
+        position: relative;
 
     }
+
+    .line-2 > .box-line > .links > a #sobre-mim{
+
+        width: 100px;
+    }
+
+    .line-2 > .box-line > .links > a::after{
+
+        content: '';
+        position: absolute;
+        top: 20px;
+        left: 0;
+        background-color: #01cfe6;
+        width:0px;
+        height: 1px;
+        transition: 0.2s ease-in-out;
+        
+
+    }    
+
+    .line-2 > .box-line > .links > a:hover::after{
+
+        
+        width:100px;
+    }
+
+    .line-2 > .box-line > .links > a:hover{
+
+        color: #01cfe6;
+    }
+
+    .box-line > .btn-redes > a > button > i{
+
+        display: inline;
+        font-size: 2.2em;
+        padding: 5px;
+        
+    
+        
+    }
+
+    .box-line > .btn-redes > a > button{
+
+        margin: 0px 10px;
+        color: white;
+        background: #202020;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+        transition: .2s;
+     
+    }
+
+    .box-line > .btn-redes > a > button:hover{
+
+        color: #01cfe6;
+    }
+
+    
 }
 
