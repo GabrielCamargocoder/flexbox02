@@ -224,7 +224,7 @@ main > div.menu > nav > a:hover::after{
 
 
  footer{
-      
+        
         color: white;
         border-top: 2px solid rgb(0, 83, 110);
         padding-top: 30px;
@@ -525,6 +525,11 @@ main > div.menu > nav > a:hover::after{
         color: #01cfe6;
     }
 
+    .line-3 > p{
+
+        text-align: center;
+        font-size: 1.2em;
+    }
 
 
 }

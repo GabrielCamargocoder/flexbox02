@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
     
     body{
     background-color:#202020;
@@ -219,22 +219,310 @@
 
 
 footer{
-    margin: auto;
-    margin-top: -40px;
-    height: 90px;
-    border-top: 2px solid rgb(0, 83, 110);
-}
-footer >p{
-    
-    padding-top: 20px;
-    font-size: 1.5em;
+
     color: white;
+    border-top: 2px solid rgb(0, 83, 110);
+    padding-top: 30px;
+    padding-bottom: 0px;
+    height: 320px;
+
+
+}
+
+.interface{
+    max-width: 90%;
+   
+    margin: 0 auto;
+
     
-    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+footer .line-1 {
+
     text-align: center;
+    color: #01cfe6;
+    font-size: 1.5rem;
+    
+}
+
+footer .line-2{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
     
 
 }
-   
+
+footer .line-2 > .box-line{
+
+    max-width: calc(100% / 3);
+}
+  
+
+.line-2 > .box-line > h3{
+
+    color: #04a8ba;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.line-2 > .box-line > .links > a{
+    display: block;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .2s;
+    position: relative;
+
+}
+
+
+/* LINK SOBRE MIM*/
+
+
+.line-2 > .box-line > .links > a#sobre-mim{
+
+    width: 95px;
+    position: relative;
+    transition: .2s;
+    
+}
+
+.line-2 > .box-line > .links > a#sobre-mim::after{
+
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background-color: #01cfe6;
+    width:0px;
+    height: 1px;
+    transition: 0.2s ease-in-out;
+    
+
+}    
+
+.line-2 > .box-line > .links > a#sobre-mim:hover::after{
+    width: 95px;
+}
+
+.line-2 > .box-line > .links > a#sobre-mim:hover{
+
+    color: #01cfe6;
+}
+
+
+
+/* LINK AJUDA*/    
+
+
+
+.line-2 > .box-line > .links > a#help{
+
+    width: 52px;
+    position: relative;
+    transition: .2s;
+    
+}
+
+.line-2 > .box-line > .links > a#help::after{
+
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background-color: #01cfe6;
+    width:0px;
+    height: 1px;
+    transition: 0.2s ease-in-out;
+    
+
+}    
+
+.line-2 > .box-line > .links > a#help:hover::after{
+    width: 50px;
+}
+
+.line-2 > .box-line > .links > a#help:hover{
+
+    color: #01cfe6;
+}
+
+
+
+
+/* LINK TERMOS*/
+
+.line-2 > .box-line > .links > a#termos{
+
+    width: 130px;
+    position: relative;
+    transition: .2s;
+    
+}
+
+.line-2 > .box-line > .links > a#termos::after{
+
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background-color: #01cfe6;
+    width:0px;
+    height: 1px;
+    transition: 0.2s ease-in-out;
+    
+
+}    
+
+.line-2 > .box-line > .links > a#termos:hover::after{
+    width: 100%;
+}
+
+.line-2 > .box-line > .links > a#termos:hover{
+
+    color: #01cfe6;
+}
+
+
+
+
+/* LINK POLITICA*/
+
+.line-2 > .box-line > .links > a#politica{
+
+    width: 198px;
+    position: relative;
+    transition: .2s;
+    
+}
+
+.line-2 > .box-line > .links > a#politica::after{
+
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background-color: #01cfe6;
+    width:0px;
+    height: 1px;
+    transition: 0.2s ease-in-out;
+    
+
+}    
+
+.line-2 > .box-line > .links > a#politica:hover::after{
+    width: 100%;
+}
+
+.line-2 > .box-line > .links > a#politica:hover{
+
+    color: #01cfe6;
+}
+
+/* LINK EMAIL*/
+
+.line-2 > .box-line > .links > a#email{
+
+    width: 264px;
+    position: relative;
+    transition: .2s;
+    
+}
+
+.line-2 > .box-line > .links > a#email::after{
+
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background-color: #01cfe6;
+    width:0px;
+    height: 1px;
+    transition: 0.2s ease-in-out;
+    
+
+}    
+
+.line-2 > .box-line > .links > a#email:hover::after{
+    width: 100%;
+}
+
+.line-2 > .box-line > .links > a#email:hover{
+
+    color: #01cfe6;
+}
+
+
+/*LINK TELEFONE*/
+
+.line-2 > .box-line > .links > a#telefone{
+
+    width: 142px;
+    position: relative;
+    transition: .2s;
+    
+}
+
+.line-2 > .box-line > .links > a#telefone::after{
+
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background-color: #01cfe6;
+    width:0px;
+    height: 1px;
+    transition: 0.2s ease-in-out;
+    
+
+}    
+
+.line-2 > .box-line > .links > a#telefone:hover::after{
+    width: 100%;
+}
+
+.line-2 > .box-line > .links > a#telefone:hover{
+
+    color: #01cfe6;
+}
+
+
+.box-line > .btn-redes > a > button > i{
+
+    display: inline;
+    font-size: 1.7em;
+    padding: 5px;
+    
+
+    
+}
+
+.box-line > .btn-redes > a > button{
+
+    margin: 0px 10px;
+    color: white;
+    background: #202020;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    transition: .2s;
+    
+}
+
+.box-line > .btn-redes > a > button:hover{
+
+    color: #01cfe6;
+}
+
+.line-3 > p{
+
+    text-align: center;
+    font-size: 0.9em;
+}
 }
 
