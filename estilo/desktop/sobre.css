@@ -362,4 +362,10 @@ footer{
         color: #01cfe6;
     }
 
+    .line-3 > p{
+
+        text-align: center;
+        font-size: 1.1em;
+        font-weight: 400;
+    }
 }
