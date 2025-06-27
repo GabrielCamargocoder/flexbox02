@@ -205,7 +205,7 @@ main > div.menu> nav > a:hover{
 
 
 footer{
-
+    margin-top: 600px;
     color: white;
     border-top: 2px solid rgb(0, 83, 110);
     padding-top: 30px;
