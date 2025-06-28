@@ -1,5 +1,17 @@
 @charset 'UTF-8';
 
+@font-face {
+   
+    font-family: 'ibm';
+    src: url(../../fontes/IBMPlexSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../../fontes/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+
 @media (min-width: 767px) and (max-width: 1024px) {
     
     body{
@@ -61,6 +73,7 @@
     
     padding: 10px;
     box-shadow: 1px 1px 3px #04a8ba;
+    font-family: 'roboto';
     margin: 10px;
     color: white;
     font-weight: 400;
@@ -239,10 +252,11 @@ footer{
 }
 
 footer .line-1 {
-
+    font-family: 'roboto';
     text-align: center;
     color: #01cfe6;
     font-size: 1.5rem;
+    margin-left: -25px;
     
 }
 
@@ -262,7 +276,7 @@ footer .line-2 > .box-line{
   
 
 .line-2 > .box-line > h3{
-
+    font-family: 'ibm';
     color: #04a8ba;
     margin-bottom: 20px;
     font-size: 1.5em;
@@ -524,9 +538,11 @@ footer .line-2 > .box-line{
 }
 
 .line-3 > p{
-    font-weight: 400;
+    font-family: 'roboto';
     text-align: center;
     font-size: 0.9em;
+    margin-left: 10px;
+    
 }
 }
 
