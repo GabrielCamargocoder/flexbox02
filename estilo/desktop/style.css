@@ -1,6 +1,15 @@
 @charset 'UTF-8';
 
+@font-face {
+   
+    font-family: 'ibm';
+    src: url(../../fontes/IBMPlexSerif-Regular.ttf);
+}
 
+@font-face {
+    font-family: 'roboto';
+    src: url(../../fontes/Roboto-VariableFont_wdth\,wght.ttf);
+}
 
 
 @media screen and (min-width:1024px) {
@@ -60,9 +69,12 @@
 
     main > div.menu> nav > a{
     
-    padding: 10px;
+    padding: 15px;
     box-shadow: 1px 1px 3px #04a8ba;
     margin: 10px;
+    font-size: 1em;
+    font-family: 'roboto';
+    font-weight: 800;
     color: white;
     font-weight: 400;
     text-decoration: none;
@@ -182,6 +194,8 @@ main > div.menu > nav > a:hover::after{
     color: white;
     margin: auto;
     padding: 10px;
+    font-family: 'roboto';
+    font-size: 1.2em;
     text-align: center;
     background-color:#04a8ba;
     border-radius: 5px;
@@ -243,8 +257,10 @@ footer{
 footer .line-1 {
 
     text-align: center;
+    font-family: 'roboto';
     color: #01cfe6;
     font-size: 2rem;
+    margin-left: -30px;
     
 }
 
@@ -267,6 +283,7 @@ footer .line-2 > .box-line{
     color: #04a8ba;
     margin-bottom: 20px;
     font-size: 2em;
+    font-family: 'ibm';
 }
 
 .line-2 > .box-line > .links > a{
@@ -521,7 +538,7 @@ footer .line-2 > .box-line{
 }
 
 .line-3 > p{
-
+    font-family: 'roboto';
     text-align: center;
     font-size: 1.2em;
 }

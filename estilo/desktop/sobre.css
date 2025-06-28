@@ -2,6 +2,10 @@
 
 @media screen and (min-width:1024px){
 
+@font-face {
+    font-family:'roboto' ;
+    src: url(../../fontes/Roboto-VariableFont_wdth\,wght.ttf);
+}
 body{
 
     background-color: #202020;
@@ -53,7 +57,8 @@ main >section{
     padding-top: 2px;
     line-height: 30px;
     color:white;
-    font-size: 16px;
+    font-size: 1.2em;
+    line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
     
 
@@ -114,7 +119,7 @@ footer .line-2 > .box-line{
 .line-2 > .box-line > .links > a{
     display: block;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     text-decoration: none;
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
@@ -334,7 +339,10 @@ footer .line-2 > .box-line{
     color: #01cfe6;
 }
 
+.box-line > .btn-redes{
 
+    margin-left: -15px;
+}
 .box-line > .btn-redes > a > button > i{
 
     display: inline;
@@ -363,7 +371,7 @@ footer .line-2 > .box-line{
 }
 
 .line-3 > p{
-
+    font-family: 'roboto';
     text-align: center;
     font-size: 1.1em;
     font-weight: 400;
