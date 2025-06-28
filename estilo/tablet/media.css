@@ -95,7 +95,7 @@
 
     main > div.menu > nav > a:hover::after{
 
-   width: 100%;    
+    width: 100%;    
     
     
 }
@@ -491,6 +491,10 @@ footer .line-2 > .box-line{
     color: #01cfe6;
 }
 
+.box-line > .btn-redes{
+
+    margin-left: -15px;
+}
 
 .box-line > .btn-redes > a > button > i{
 
@@ -520,7 +524,7 @@ footer .line-2 > .box-line{
 }
 
 .line-3 > p{
-
+    font-weight: 400;
     text-align: center;
     font-size: 0.9em;
 }

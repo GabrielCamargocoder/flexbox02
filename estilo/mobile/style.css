@@ -254,6 +254,8 @@ footer .line-2 > .box-line{
     color: #04a8ba;
     margin-bottom: 20px;
     font-size: 1.5em;
+ 
+    
 }
 
 .line-2 > .box-line > .links > a{
@@ -477,6 +479,11 @@ footer .line-2 > .box-line{
 .line-2 > .box-line > .links > a#telefone:hover{
 
     color: #01cfe6;
+}
+
+.box-line > .btn-redes{
+
+    margin-left: -15px;
 }
 
 
