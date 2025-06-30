@@ -60,7 +60,9 @@ main > .menu > nav{
     display: flex;
     flex-flow: row wrap;
     padding-top: 4px;
-    width: 100%;
+    width: 80vw;
+    margin-left: 60px;
+
     
     
     
@@ -72,7 +74,7 @@ main > div.menu> nav > a{
     
     padding: 10px;
     box-shadow: 1px 1px 3px #04a8ba;
-    margin: 10px;
+    margin: 10px ;
     color: white;
     font-weight: 400;
     font-family: 'roboto';
@@ -118,10 +120,11 @@ main > div.menu> nav > a:hover{
 
 .container{
    
-    margin: auto;
-    height: 340px;
-    max-width: 300px;
+    
+    height: 360px;
+    width: 80vw;
     margin-top: 100px;
+    margin-left:60px ;
     margin-bottom: 80px;    
     padding: 10px;
     position: relative;
@@ -141,7 +144,7 @@ main > div.menu> nav > a:hover{
     color:white;
     font-size: 20px;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 60vw;
 
 }
@@ -150,8 +153,8 @@ main > div.menu> nav > a:hover{
 
     color: white;
     text-align: justify;
-    font-size: 12px;
-
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 
@@ -185,7 +188,7 @@ main > div.menu> nav > a:hover{
     margin-top:-28px;
     width: 160px;
     position: absolute;
-    top: 330px;
+    top: 348px;
     left: 50%;
     transform: translate(-50%);
     
@@ -230,9 +233,10 @@ footer{
 }
 
 .interface{
-    max-width: 90%;
+    max-width: 80vw;
     
     margin: 0 auto;
+    margin-left: 50px;
     
 
     
@@ -244,7 +248,7 @@ footer .line-1 {
     text-align: center;
     color: #01cfe6;
     font-size: 1.5rem;
-    margin-left: -10px;
+    
     
 }
 
