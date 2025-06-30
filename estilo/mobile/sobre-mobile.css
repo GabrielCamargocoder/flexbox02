@@ -70,12 +70,17 @@ main > section > article > h1{
     
 }
 
-main > section > article > img{
-    display: block;
+main > section > article > div{
+
+    background: url(../../imagens/eu.png) no-repeat center center;
+    background-size: contain;
     height: 260px;
+    margin-top: -20px;
+
+}
    
-    margin-top: -25px;
-    margin-left: 65px;
+   
+   
 
 }
  main > section  > article > p{
