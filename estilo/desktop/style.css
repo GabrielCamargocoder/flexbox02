@@ -61,7 +61,7 @@
     display: flex;
     flex-flow: row wrap;
     padding-top: 10px;
-    max-width: 900px;
+    max-width: 80vw;
     margin: auto;
 
 }
@@ -249,7 +249,7 @@ footer{
 }
 
 .interface{
-    max-width: 85%;
+    max-width: 85vw;
     margin: 0 auto;
     
 }
@@ -260,7 +260,7 @@ footer .line-1 {
     font-family: 'roboto';
     color: #01cfe6;
     font-size: 2rem;
-    margin-left: -30px;
+   
     
 }
 
