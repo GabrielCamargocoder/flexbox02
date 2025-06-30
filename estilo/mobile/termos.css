@@ -1,5 +1,10 @@
 @charset 'UTF-8';
 
+
+@font-face {
+    font-family: 'ibm';
+    src: url(../../fontes/IBMPlexSerif-Regular.ttf);
+}
 @media (max-width: 766px) {
 
   main >  section{
@@ -13,7 +18,7 @@
     }
     
 main > section > h1{
-
+    font-family: 'ibm';
     font-size: 1.5em;
     color: #04a8ba;
     text-indent: 10px;

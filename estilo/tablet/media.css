@@ -61,7 +61,7 @@
     display: flex;
     flex-flow: row wrap;
     padding-top: 2px;
-
+    
     width: 700px;
     margin: auto
     
@@ -192,6 +192,7 @@
     text-decoration: none;
     color: white;
     margin: auto;
+    font-family: 'roboto';
     padding: 10px;
     text-align: center;
     background-color: #04a8ba;
