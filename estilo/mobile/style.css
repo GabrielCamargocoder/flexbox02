@@ -59,7 +59,7 @@ main > .menu > nav{
 
     display: flex;
     flex-flow: row wrap;
-    padding-top: 4px;
+    padding-top: 10px;
     width: 80vw;
     margin-left: 60px;
 
