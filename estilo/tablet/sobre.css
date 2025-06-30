@@ -46,8 +46,9 @@ main >section{
     width: 80vw;
     padding: 12px;
     box-shadow: 2px 2px 5px  #0291a4a5;
-    margin: auto;
-    margin-top: 100px;
+   
+    margin-top: 80px;
+    margin-left: 100px;
     
 }
 
@@ -58,6 +59,15 @@ main > section > article > h1{
     font-size: 2em;
     text-align: center;
     margin-bottom: 10px;
+
+}
+
+main > section > article > div{
+
+    background: url(../../imagens/eu.png) no-repeat center center;
+    background-size: contain;
+    height: 300px;
+    margin-top: -35px;
 
 }
 
@@ -86,27 +96,31 @@ footer{
 }
 
 .interface{
-    max-width: 90%;
+    max-width: 85vw;
    
     margin: 0 auto;
+    margin-left: 70px;
 
     
     
 }
 
 footer .line-1 {
-
+    width: 85vw;
     text-align: center;
     color: #01cfe6;
     font-size: 1.5rem;
+    padding-top: 10px;
     
 }
 
 footer .line-2{
     padding: 20px 0px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
-    margin-left: 35px;
+    align-items: start;
+    
     
 
 }
@@ -347,6 +361,10 @@ footer .line-2 > .box-line{
     color: #01cfe6;
 }
 
+.box-line > .btn-redes{
+
+    margin-left: -15px;
+}
 
 .box-line > .btn-redes > a > button > i{
 
@@ -376,8 +394,10 @@ footer .line-2 > .box-line{
 }
 
 .line-3 > p{
-
+    width: 80vw;
+    font-family: 'roboto';
     text-align: center;
     font-size: 0.9em;
+    margin-left: -15px;
 }
 }

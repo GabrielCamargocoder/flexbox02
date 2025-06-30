@@ -82,7 +82,7 @@ main > section > article > div{
    
    
 
-}
+
  main > section  > article > p{
    
     text-align: justify;
@@ -380,7 +380,10 @@ footer .line-2 > .box-line{
     color: #01cfe6;
 }
 
+.box-line > .btn-redes{
 
+    margin-left: -15px;
+}
 .box-line > .btn-redes > a > button > i{
 
     display:inline;
@@ -417,4 +420,5 @@ footer .line-2 > .box-line{
     text-align: center;
     font-size: 0.9em;
 }
-}
+
+ }

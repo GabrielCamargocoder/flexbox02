@@ -62,8 +62,8 @@
     flex-flow: row wrap;
     padding-top: 2px;
     
-    width: 700px;
-    margin: auto
+    width: 90vw;
+    margin-left: 58px;
     
 
 }
@@ -82,7 +82,7 @@
     align-items: center;
     border-radius: 5px;
     text-align: center;
-    flex: 1 0 200px;
+    flex: 1 0 140px;
     z-index: 0;
     overflow: hidden;
   
@@ -233,7 +233,7 @@
 
 
 footer{
-
+    margin-top: 600px;
     color: white;
     border-top: 2px solid rgb(0, 83, 110);
     padding-top: 30px;
@@ -244,9 +244,10 @@ footer{
 }
 
 .interface{
-    max-width: 90%;
+    max-width: 85vw;
    
     margin: 0 auto;
+    margin-left: 70px;
 
     
     
@@ -254,18 +255,21 @@ footer{
 
 footer .line-1 {
     font-family: 'roboto';
+    width: 85vw;
     text-align: center;
     color: #01cfe6;
     font-size: 1.5rem;
-    margin-left: -25px;
+    padding-top: 10px;
     
 }
 
 footer .line-2{
     padding: 20px 0px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
-    margin-left: 35px;
+    align-items: start;
+    
     
 
 }
@@ -539,10 +543,10 @@ footer .line-2 > .box-line{
 }
 
 .line-3 > p{
+    width: 80vw;
     font-family: 'roboto';
     text-align: center;
     font-size: 0.9em;
-    margin-left: 10px;
     
 }
 }
