@@ -72,7 +72,7 @@
     padding: 15px;
     box-shadow: 1px 1px 3px #04a8ba;
     margin: 10px;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'roboto';
     font-weight: 800;
     color: white;
@@ -123,7 +123,7 @@ main > div.menu > nav > a:hover::after{
     
     .container{
     margin: auto;
-    width: 800px;
+    width: 900px;
     padding: 15px;
     height: 260px;
     margin-top: 100px;
@@ -199,7 +199,7 @@ main > div.menu > nav > a:hover::after{
     text-align: center;
     background-color:#04a8ba;
     border-radius: 5px;
-    margin-top: -40px;
+    margin-top: -42px;
     width: 200px;
     margin-left: 0px;
     z-index: 2;
@@ -467,7 +467,7 @@ footer .line-2 > .box-line{
 }    
 
 .line-2 > .box-line > .links > a#email:hover::after{
-    width: 100%;
+    width: 203px;
 }
 
 .line-2 > .box-line > .links > a#email:hover{
