@@ -6,6 +6,11 @@
     font-family:'roboto' ;
     src: url(../../fontes/Roboto-VariableFont_wdth\,wght.ttf);
 }
+
+@font-face {
+    font-family: 'ibm';
+    src: url(../../fontes/IBMPlexSerif-Regular.ttf);
+}
 body{
 
     background-color: #202020;
@@ -51,6 +56,14 @@ main >section{
     
 }
 
+main > section > article > h1{
+
+    font-family: 'ibm';
+    color: #04a8ba;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
  main > section  > article > p{
    
     text-align: justify;
@@ -83,7 +96,7 @@ footer{
 }
 
 footer .line-1 {
-
+    font-family: 'roboto';
     text-align: center;
     color: #01cfe6;
     font-size: 2rem;
@@ -110,7 +123,7 @@ footer .line-2 > .box-line{
 }
 
 .line-2 > .box-line > h3{
-
+    font-family: 'ibm';
     color: #04a8ba;
     margin-bottom: 20px;
     font-size: 2em;
