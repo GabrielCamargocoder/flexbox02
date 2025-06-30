@@ -32,7 +32,7 @@ main > nav.menu-lateral{
 
 .btn-menu > i{
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     cursor: pointer;
     margin-left: -2px;
     
@@ -78,7 +78,7 @@ nav.menu-lateral.expandir  .link{
 
 ul > li.item-menu > a >.icone > i{
 
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 5px;
 }
 
