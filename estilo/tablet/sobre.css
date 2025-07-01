@@ -5,6 +5,10 @@
     src: url(../../fontes/IBMPlexSerif-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'roboto';
+    src: url(../../fontes/Roboto-VariableFont_wdth\,wght.ttf);
+}
 @media  (min-width:767px) and (max-width:1023px){
 
 body{
@@ -106,6 +110,7 @@ footer{
 }
 
 footer .line-1 {
+    font-family: 'roboto';
     width: 85vw;
     text-align: center;
     color: #01cfe6;
@@ -120,6 +125,7 @@ footer .line-2{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: start;
+    margin-left: 25px;
     
     
 
@@ -132,7 +138,7 @@ footer .line-2 > .box-line{
   
 
 .line-2 > .box-line > h3{
-
+    font-family: 'ibm';
     color: #04a8ba;
     margin-bottom: 20px;
     font-size: 1.5em;
