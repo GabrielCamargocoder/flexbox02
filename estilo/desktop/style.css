@@ -135,25 +135,247 @@ main > div.menu > nav > a:hover::after{
 
 }
 
+/* CAPA CURSOS DE EMPREENDEDORISMO*/
     
-   .container > .img-produto{
-    background: url(../../imagem_empreend-p.jpg) no-repeat center center;
+   .container#gastro > .img-produto{
+    background: url(../../imagens/empreend/COMBOGASTRONOMIA.webp) no-repeat center center;
     background-size: contain;
     display: block;
-    height: 130px;
+    height: 180px;
     float: left;
     width: 200px;
    
 }
+
+ .container#hamburg > .img-produto{
+    background: url(../../imagens/empreend/curso-de-hamburguer.webp) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+ .container#manicure > .img-produto{
+    background: url(../../imagens/empreend/curso-manicure.webp) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+ .container#design1 > .img-produto{
+    background: url(../../imagens/empreend/desginer-spbrancelha1.webp) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+.container#design2 > .img-produto{
+    background: url(../../imagens/empreend/CpiadeDesignsemnome3.webp) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+.container#automotivo > .img-produto{
+    background: url(../../imagens/empreend/mecanica1.webp) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 160px;
+    float: left;
+    width: 200px;
+   
+}
+
+.container#gamer > .img-produto{
+    background: url(../../imagens/empreend/manutenção-comp1.webp) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+
+.container#manutencao-pc > .img-produto{
+    background: url(../../imagens/empreend/manutenonote02.png) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+.container#designer-grafico > .img-produto{
+    background: url(../../imagens/empreend/PERFILDNP.png) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+.container#ar > .img-produto{
+    background: url(../../imagens/empreend/manut_ar_condic1.png) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+/* CAPA CURSO DE MARKETING DIGITAL*/
+
+.container#mk1 > .img-produto{
+    background: url(../../imagens/marketing/thumbsingle698b20f.png) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+.container#mk2 > .img-produto{
+    background: url(../../imagens/marketing/MarketingDigital2.png) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+.container#mk3 > .img-produto{
+    background: url(../../imagens/marketing/marketing4.webp) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+.container#mk4 > .img-produto{
+    background: url(../../imagens/marketing/marketing3.png) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
     
+/* CAPA CURSO TECNOLOGIA*/
+
+.container#py1 > .img-produto{
+    background: url(../../imagens/tecnologia/curso-python1.webp) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+.container#py2 > .img-produto{
+    background: url(../../imagens/tecnologia/curso-python2.webp) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
 
 
-    .container > .descricao-produto{
+.container#html1 > .img-produto{
+    background: url(../../imagens/tecnologia/htm\ e\ css.png) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+
+.container#html2 > .img-produto{
+    background: url(../../imagens/tecnologia/html-css2.png) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+
+.container#java > .img-produto{
+    background: url(../../imagens/tecnologia/curso-java.jpg) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+.container#php1 > .img-produto{
+    background: url(../../imagens/tecnologia/php2.png) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+.container#php2 > .img-produto{
+    background: url(../../imagens/tecnologia/php1.png) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 180px;
+    float: left;
+    width: 200px;
+   
+}
+
+.container > .descricao-produto{
     margin-left: 210px;
 
 }
 
-   .container > .descricao-produto > h2{
+.container > .descricao-produto > h2{
     color:white;
     font-size: 2em;
     font-weight: 400;
