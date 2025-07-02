@@ -192,8 +192,8 @@ main > div.menu > nav > a:hover::after{
 
 
 .container#automotivo > .img-produto{
-    background: url(../../imagens/empreend/mecanica1.webp) no-repeat center center;
-    background-size: contain;
+    background: url(../../imagens/empreend/mecanica1.jfif) no-repeat center center;
+    background-size: cover;
     display: block;
     height: 160px;
     float: left;
@@ -215,7 +215,7 @@ main > div.menu > nav > a:hover::after{
 
 .container#manutencao-pc > .img-produto{
     background: url(../../imagens/empreend/manutenonote02.png) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     display: block;
     height: 180px;
     float: left;
@@ -226,7 +226,7 @@ main > div.menu > nav > a:hover::after{
 
 .container#designer-grafico > .img-produto{
     background: url(../../imagens/empreend/PERFILDNP.png) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     display: block;
     height: 180px;
     float: left;
@@ -235,7 +235,7 @@ main > div.menu > nav > a:hover::after{
 }
 
 .container#ar > .img-produto{
-    background: url(../../imagens/empreend/manut_ar_condic1.png) no-repeat center center;
+    background: url(../../imagens/empreend/manut_ar_condic1.webp) no-repeat center center;
     background-size: contain;
     display: block;
     height: 180px;
@@ -248,7 +248,7 @@ main > div.menu > nav > a:hover::after{
 /* CAPA CURSO DE MARKETING DIGITAL*/
 
 .container#mk1 > .img-produto{
-    background: url(../../imagens/marketing/thumbsingle698b20f.png) no-repeat center center;
+    background: url(../../imagens/marketing/thumbsingle698b20f.webp) no-repeat center center;
     background-size: contain;
     display: block;
     height: 180px;
@@ -259,8 +259,8 @@ main > div.menu > nav > a:hover::after{
 
 
 .container#mk2 > .img-produto{
-    background: url(../../imagens/marketing/MarketingDigital2.png) no-repeat center center;
-    background-size: contain;
+    background: url(../../imagens/marketing/MarketingDigital2.webp) no-repeat center center;
+    background-size: cover;
     display: block;
     height: 180px;
     float: left;
@@ -281,8 +281,8 @@ main > div.menu > nav > a:hover::after{
 
 
 .container#mk4 > .img-produto{
-    background: url(../../imagens/marketing/marketing3.png) no-repeat center center;
-    background-size: contain;
+    background: url(../../imagens/marketing/marketing3.webp) no-repeat center center;
+    background-size: cover;
     display: block;
     height: 180px;
     float: left;
