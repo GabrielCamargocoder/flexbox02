@@ -195,7 +195,7 @@ main > div.menu > nav > a:hover::after{
     background: url(../../imagens/empreend/mecanica1.jfif) no-repeat center center;
     background-size: cover;
     display: block;
-    height: 160px;
+    height: 180px;
     float: left;
     width: 200px;
    
@@ -295,7 +295,7 @@ main > div.menu > nav > a:hover::after{
 
 .container#py1 > .img-produto{
     background: url(../../imagens/tecnologia/curso-python1.webp) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     display: block;
     height: 180px;
     float: left;
@@ -316,7 +316,7 @@ main > div.menu > nav > a:hover::after{
 
 .container#html1 > .img-produto{
     background: url(../../imagens/tecnologia/htm\ e\ css.png) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     display: block;
     height: 180px;
     float: left;
@@ -328,7 +328,7 @@ main > div.menu > nav > a:hover::after{
 
 .container#html2 > .img-produto{
     background: url(../../imagens/tecnologia/html-css2.png) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     display: block;
     height: 180px;
     float: left;
@@ -340,7 +340,7 @@ main > div.menu > nav > a:hover::after{
 
 .container#java > .img-produto{
     background: url(../../imagens/tecnologia/curso-java.jpg) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     display: block;
     height: 180px;
     float: left;
@@ -351,7 +351,7 @@ main > div.menu > nav > a:hover::after{
 
 .container#php1 > .img-produto{
     background: url(../../imagens/tecnologia/php2.png) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     display: block;
     height: 180px;
     float: left;
@@ -360,9 +360,19 @@ main > div.menu > nav > a:hover::after{
 }
 
 
+.container > .valor-produto > span#p1{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: -55px; 
+    color: white;
+}
+
 .container#php2 > .img-produto{
     background: url(../../imagens/tecnologia/php1.png) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     display: block;
     height: 180px;
     float: left;
@@ -404,7 +414,7 @@ main > div.menu > nav > a:hover::after{
     text-align: right;  
     font-size: 2.2em;
     margin-right: 10px;
-    margin-top: -25px; 
+    margin-top: -20px; 
     color: white;
 }
 
