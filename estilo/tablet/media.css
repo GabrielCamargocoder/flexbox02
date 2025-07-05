@@ -125,7 +125,7 @@
         
     width: 80vw;
     padding: 15px;
-    height: 258px;
+    height: 300px;
     margin-top: 100px;
     margin-left: 102px;
     margin-bottom: 80px;
@@ -230,6 +230,16 @@
    
 }
 
+.container > .valor-produto > span#valor-montagem{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 60px; 
+    color: white;
+}
+
 
 .container#designer-grafico > .img-produto{
     background: url(../../imagens/empreend/PERFILDNP.png) no-repeat center center;
@@ -251,6 +261,16 @@
    
 }
 
+
+.container > .valor-produto > span#arcond{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 60px; 
+    color: white;
+}
 
 /* CAPA CURSO DE MARKETING DIGITAL*/
 
@@ -286,6 +306,15 @@
    
 }
 
+.container > .valor-produto > span#valor-market{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 60px; 
+    color: white;
+}
 
 .container#mk4 > .img-produto{
     background: url(../../imagens/marketing/marketing3.webp) no-repeat center center;
@@ -297,6 +326,16 @@
    
 }
 
+
+.container > .valor-produto > span#valor-mk4{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 60px; 
+    color: white;
+}
     
 /* CAPA CURSO TECNOLOGIA*/
 
@@ -309,6 +348,18 @@
     width: 200px;
    
 }
+
+.container > .valor-produto > span#p1{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 60px; 
+    color: white;
+}
+
+
 
 .container#py2 > .img-produto{
     background: url(../../imagens/tecnologia/curso-python2.webp) no-repeat center center;
@@ -331,6 +382,15 @@
    
 }
 
+.container > .valor-produto > span#valor-html1{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 60px; 
+    color: white;
+}
 
 
 .container#html2 > .img-produto{
@@ -355,6 +415,15 @@
    
 }
 
+.container > .valor-produto > span#valor-java{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 60px; 
+    color: white;
+}
 
 .container#php1 > .img-produto{
     background: url(../../imagens/tecnologia/php2.png) no-repeat center center;
@@ -412,7 +481,7 @@
     text-align: right;  
     font-size: 2.2em;
     margin-right: 10px;
-    margin-top: 60px; 
+    margin-top: 98px; 
     color: white;
 }
 
@@ -431,7 +500,7 @@
     border-radius: 5px;
     
     position: absolute;
-    top:210px ;
+    top:250px ;
     left: 10px;
     width: 200px;
    
