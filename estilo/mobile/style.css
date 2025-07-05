@@ -121,7 +121,7 @@ main > div.menu> nav > a:hover{
 .container{
    
     
-    height: 380px;
+    height: 410px;
     width: 80vw;
     margin-top: 100px;
     margin-left:60px ;
@@ -152,7 +152,7 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/empreend/COMBOGASTRONOMIA.webp) no-repeat center center;
     background-size: contain;
     display: block;
-    height: 100px;
+    height: 140px;
     
     width:200px;
    
@@ -162,7 +162,7 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/empreend/curso-de-hamburguer.webp) no-repeat center center;
     background-size: contain;
     display: block;
-    height: 100px;
+    height: 140px;
     
     width: 200px;
    
@@ -173,7 +173,7 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/empreend/curso-manicure.webp) no-repeat center center;
     background-size: contain;
     display: block;
-    height: 100px;
+    height: 140px;
    
     width: 200px;
    
@@ -184,7 +184,7 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/empreend/desginer-spbrancelha1.webp) no-repeat center center;
     background-size: contain;
     display: block;
-    height: 100px;
+    height: 140px;
  
     width: 200px;
    
@@ -195,7 +195,7 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/empreend/CpiadeDesignsemnome3.webp) no-repeat center center;
     background-size: contain;
     display: block;
-    height: 100px;
+    height: 140px;
     
     width: 200px;
    
@@ -206,9 +206,9 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/empreend/mecanica1.jfif) no-repeat center center;
     background-size: cover;
     display: block;
-    height: 100px;
+    height: 150px;
    
-    width: 115px;
+    width: 160px;
    
 }
 
@@ -216,7 +216,7 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/empreend/manutenção-comp1.webp) no-repeat center center;
     background-size: contain;
     display: block;
-    height: 100px;
+    height: 140px;
     width: 200px;
    
 }
@@ -227,8 +227,8 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/empreend/manutenonote02.png) no-repeat center center;
     background-size: cover;
     display: block;
-    height: 100px;
-    width: 120px;
+    height: 150px;
+    width: 160px;
    
 }
 
@@ -239,9 +239,9 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/empreend/PERFILDNP.png) no-repeat center center;
     background-size: cover;
     display: block;
-    height: 100px;
+    height: 150px;
     
-    width: 130px;
+    width: 160px;
    
 }
 
@@ -249,7 +249,7 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/empreend/manut_ar_condic1.webp) no-repeat center center;
     background-size: contain;
     display: block;
-    height: 100px;
+    height: 140px;
     
     width: 200px;
    
@@ -264,7 +264,7 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/marketing/thumbsingle698b20f.webp) no-repeat center center;
     background-size: contain;
     display: block;
-    height: 100px;
+    height: 140px;
     
     width: 200px;
    
@@ -273,11 +273,11 @@ main > div.menu> nav > a:hover{
 
 .container#mk2 > .img-produto{
     background: url(../../imagens/marketing/MarketingDigital2.webp) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     display: block;
-    height: 100px;
+    height: 150px;
    
-    width: 130px;
+    width: 160px;
    
 }
 
@@ -286,7 +286,7 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/marketing/marketing4.webp) no-repeat center center;
     background-size: contain;
     display: block;
-    height: 100px;
+    height: 140px;
    
     width: 200px;
    
@@ -298,9 +298,9 @@ main > div.menu> nav > a:hover{
     background: url(../../imagens/marketing/marketing3.webp) no-repeat center center;
     background-size: cover;
     display: block;
-    height: 100px;
+    height: 150px;
    
-    width: 130px;
+    width: 160px;
    
 }
 
@@ -399,7 +399,7 @@ main > div.menu> nav > a:hover{
 .container > .descricao-produto > h2{
     color:white;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 15px;
     width: 65vw;
 
@@ -444,7 +444,7 @@ main > div.menu> nav > a:hover{
     margin-top:-28px;
     width: 160px;
     position: absolute;
-    top: 370px;
+    top: 395px;
     left: 50%;
     transform: translate(-50%);
     
