@@ -137,398 +137,417 @@ main > div.menu > nav > a:hover::after{
 
 /* CAPA CURSOS DE EMPREENDEDORISMO*/
     
-   .container#gastro > .img-produto{
-    background: url(../../imagens/empreend/COMBOGASTRONOMIA.webp) no-repeat center center;
-    background-size: contain;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+.container#gastro > .img-produto{
+background: url(../../imagens/empreend/COMBOGASTRONOMIA.webp) no-repeat center center;
+background-size: contain;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
- .container#hamburg > .img-produto{
-    background: url(../../imagens/empreend/curso-de-hamburguer.webp) no-repeat center center;
-    background-size: contain;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+.container#gastro > .descricao-produto > p#desc-gastro > ul{
+    
+   list-style: disc;
+}
+
+.container#gastro > .descricao-produto > p#desc-gastro > ul > li{
+
+    color: white;
+}
+
+.container#hamburg > .img-produto{
+background: url(../../imagens/empreend/curso-de-hamburguer.webp) no-repeat center center;
+background-size: contain;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
- .container#manicure > .img-produto{
-    background: url(../../imagens/empreend/curso-manicure.webp) no-repeat center center;
-    background-size: contain;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+.container#manicure > .img-produto{
+background: url(../../imagens/empreend/curso-manicure.webp) no-repeat center center;
+background-size: contain;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
- .container#design1 > .img-produto{
-    background: url(../../imagens/empreend/desginer-spbrancelha1.webp) no-repeat center center;
-    background-size: contain;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+.container#design1 > .img-produto{
+background: url(../../imagens/empreend/desginer-spbrancelha1.webp) no-repeat center center;
+background-size: contain;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 .container#design2 > .img-produto{
-    background: url(../../imagens/empreend/CpiadeDesignsemnome3.webp) no-repeat center center;
-    background-size: contain;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/empreend/CpiadeDesignsemnome3.webp) no-repeat center center;
+background-size: contain;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 .container#automotivo > .img-produto{
-    background: url(../../imagens/empreend/mecanica1.jfif) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/empreend/mecanica1.jfif) no-repeat center center;
+background-size: cover;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 .container#gamer > .img-produto{
-    background: url(../../imagens/empreend/manutenção-comp1.webp) no-repeat center center;
-    background-size: contain;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/empreend/manutenção-comp1.webp) no-repeat center center;
+background-size: contain;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 
 .container#manutencao-pc > .img-produto{
-    background: url(../../imagens/empreend/manutenonote02.png) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/empreend/manutenonote02.png) no-repeat center center;
+background-size: cover;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 .container#designer-grafico > .img-produto{
-    background: url(../../imagens/empreend/PERFILDNP.png) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/empreend/PERFILDNP.png) no-repeat center center;
+background-size: cover;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 .container#ar > .img-produto{
-    background: url(../../imagens/empreend/manut_ar_condic1.webp) no-repeat center center;
-    background-size: contain;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/empreend/manut_ar_condic1.webp) no-repeat center center;
+background-size: contain;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 /* CAPA CURSO DE MARKETING DIGITAL*/
 
 .container#mk1 > .img-produto{
-    background: url(../../imagens/marketing/thumbsingle698b20f.webp) no-repeat center center;
-    background-size: contain;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/marketing/thumbsingle698b20f.webp) no-repeat center center;
+background-size: contain;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 .container#mk2 > .img-produto{
-    background: url(../../imagens/marketing/MarketingDigital2.webp) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/marketing/MarketingDigital2.webp) no-repeat center center;
+background-size: cover;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 .container#mk3 > .img-produto{
-    background: url(../../imagens/marketing/marketing4.webp) no-repeat center center;
-    background-size: contain;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/marketing/marketing4.webp) no-repeat center center;
+background-size: contain;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 .container#mk4 > .img-produto{
-    background: url(../../imagens/marketing/marketing3.webp) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/marketing/marketing3.webp) no-repeat center center;
+background-size: cover;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
-    
+
 /* CAPA CURSO TECNOLOGIA*/
 
 .container#py1 > .img-produto{
-    background: url(../../imagens/tecnologia/curso-python1.webp) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/tecnologia/curso-python1.webp) no-repeat center center;
+background-size: cover;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 .container#py2 > .img-produto{
-    background: url(../../imagens/tecnologia/curso-python2.webp) no-repeat center center;
-    background-size: contain;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/tecnologia/curso-python2.webp) no-repeat center center;
+background-size: contain;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 .container#html1 > .img-produto{
-    background: url(../../imagens/tecnologia/htm\ e\ css.png) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/tecnologia/htm\ e\ css.png) no-repeat center center;
+background-size: cover;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 
 .container#html2 > .img-produto{
-    background: url(../../imagens/tecnologia/html-css2.png) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/tecnologia/html-css2.png) no-repeat center center;
+background-size: cover;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 
 .container#java > .img-produto{
-    background: url(../../imagens/tecnologia/curso-java.jpg) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/tecnologia/curso-java.jpg) no-repeat center center;
+background-size: cover;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 .container#php1 > .img-produto{
-    background: url(../../imagens/tecnologia/php2.png) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/tecnologia/php2.png) no-repeat center center;
+background-size: cover;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 
 .container > .valor-produto > span#p1{
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: right;  
-    font-size: 2.2em;
-    margin-right: 10px;
-    margin-top: -55px; 
-    color: white;
+display: block;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: right;  
+font-size: 2.2em;
+margin-right: 10px;
+margin-top: -55px; 
+color: white;
 }
 
 .container#php2 > .img-produto{
-    background: url(../../imagens/tecnologia/php1.png) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 180px;
-    float: left;
-    width: 200px;
-   
+background: url(../../imagens/tecnologia/php1.png) no-repeat center center;
+background-size: cover;
+display: block;
+height: 180px;
+float: left;
+width: 200px;
+
 }
 
 .container > .descricao-produto{
-    margin-left: 210px;
-    margin-top: -10px;
+margin-left: 210px;
+margin-top: -10px;
 
 }
 
 .container > .descricao-produto > h2{
-    color:white;
-    font-size: 2em;
-    font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+color:white;
+font-size: 2em;
+font-weight: 400;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
 
 }
 
 .container > .descricao-produto  > p{
 
-    color: white;
-    text-align: justify;
-    width: 80%;
-    margin-left: 10px;
-    height: 200px;
+color: white;
+text-align: justify;
+width: 80%;
+margin-left: 10px;
+height: 200px;
 
 }
 
 
 
 .container > .valor-produto > span{
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: right;  
-    font-size: 2.2em;
-    margin-right: 10px;
-    margin-top: -20px; 
-    color: white;
+display: block;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: right;  
+font-size: 2.2em;
+margin-right: 10px;
+margin-top: -40px; 
+color: white;
 }
 
+.container > .valor-produto> p{
+display: block;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: right;  
+font-size: 1.2em;
+margin-right: 10px;
+margin-top: 0px; 
+color: white;
+}
 
 
 
 .container > .btn-comec > a{
-    display:block;
-    text-decoration: none;
-    color: white;
-    margin: auto;
-    padding: 10px;
-    font-family: 'roboto';
-    font-size: 1.2em;
-    text-align: center;
-    background-color:#04a8ba;
-    border-radius: 5px;
-   
-    width: 200px;
-    margin-left: 0px;
-    z-index: 2;
-    position: absolute;
-    top:240px ;
-    
+display:block;
+text-decoration: none;
+color: white;
+margin: auto;
+padding: 10px;
+font-family: 'roboto';
+font-size: 1.2em;
+text-align: center;
+background-color:#04a8ba;
+border-radius: 5px;
+
+width: 200px;
+margin-left: 0px;
+z-index: 2;
+position: absolute;
+top:240px ;
+
 }
 
 
 .container > .btn-comec > a::before ,.container > .btn-comec > a::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    
-    border-radius: 5px;
-    opacity: .7;
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index: -1;
+
+border-radius: 5px;
+opacity: .7;
 }
 
 @keyframes pulsante {
-    100%{
-        transform: scale(1.2);
-        opacity: 0;
-    }   
+100%{
+    transform: scale(1.2);
+    opacity: 0;
+}   
 }
 
 .container > .btn-comec > a:hover::before{
 
-    animation: pulsante 1s ease-in-out infinite;
-    background-color: #01cfe6;
+animation: pulsante 1s ease-in-out infinite;
+background-color: #01cfe6;
 }
 
 
 
 
 footer{
-    
-    color: white;
-    border-top: 2px solid rgb(0, 83, 110);
-    padding-top: 30px;
-    padding-bottom: 0px;
-    height: 320px;
+
+color: white;
+border-top: 2px solid rgb(0, 83, 110);
+padding-top: 30px;
+padding-bottom: 0px;
+height: 320px;
 
 
 }
 
 .interface{
-    max-width: 85vw;
-    margin: 0 auto;
-    
+max-width: 85vw;
+margin: 0 auto;
+
 }
 
 footer .line-1 {
 
-    text-align: center;
-    font-family: 'roboto';
-    color: #01cfe6;
-    font-size: 2rem;
-   
-    
+text-align: center;
+font-family: 'roboto';
+color: #01cfe6;
+font-size: 2rem;
+
+
 }
 
 footer .line-2{
-    padding: 30px 0px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 90px;
+padding: 30px 0px;
+display: flex;
+justify-content: space-between;
+margin-left: 90px;
 
 }
 
 footer .line-2 > .box-line{
 
-    max-width: calc(100% / 3);
+max-width: calc(100% / 3);
 }
 
 
 .line-2 > .box-line > h3{
 
-    color: #04a8ba;
-    margin-bottom: 20px;
-    font-size: 2em;
-    font-family: 'ibm';
+color: #04a8ba;
+margin-bottom: 20px;
+font-size: 2em;
+font-family: 'ibm';
 }
 
 .line-2 > .box-line > .links > a{
-    display: block;
-    color: white;
-    margin-bottom: 20px;
-    text-decoration: none;
-    font-size: 1.2em;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: .2s;
-    position: relative;
+display: block;
+color: white;
+margin-bottom: 20px;
+text-decoration: none;
+font-size: 1.2em;
+font-family: Arial, Helvetica, sans-serif;
+transition: .2s;
+position: relative;
 
 }
 
@@ -538,33 +557,33 @@ footer .line-2 > .box-line{
 
 .line-2 > .box-line > .links > a#sobre-mim{
 
-    width: 95px;
-    position: relative;
-    transition: .2s;
-    
+width: 95px;
+position: relative;
+transition: .2s;
+
 }
 
 .line-2 > .box-line > .links > a#sobre-mim::after{
 
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 0;
-    background-color: #01cfe6;
-    width:0px;
-    height: 1px;
-    transition: 0.2s ease-in-out;
-    
+content: '';
+position: absolute;
+top: 20px;
+left: 0;
+background-color: #01cfe6;
+width:0px;
+height: 1px;
+transition: 0.2s ease-in-out;
+
 
 }    
 
 .line-2 > .box-line > .links > a#sobre-mim:hover::after{
-    width: 95px;
+width: 95px;
 }
 
 .line-2 > .box-line > .links > a#sobre-mim:hover{
 
-    color: #01cfe6;
+color: #01cfe6;
 }
 
 
@@ -575,33 +594,33 @@ footer .line-2 > .box-line{
 
 .line-2 > .box-line > .links > a#help{
 
-    width: 52px;
-    position: relative;
-    transition: .2s;
-    
+width: 52px;
+position: relative;
+transition: .2s;
+
 }
 
 .line-2 > .box-line > .links > a#help::after{
 
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 0;
-    background-color: #01cfe6;
-    width:0px;
-    height: 1px;
-    transition: 0.2s ease-in-out;
-    
+content: '';
+position: absolute;
+top: 20px;
+left: 0;
+background-color: #01cfe6;
+width:0px;
+height: 1px;
+transition: 0.2s ease-in-out;
+
 
 }    
 
 .line-2 > .box-line > .links > a#help:hover::after{
-    width: 50px;
+width: 50px;
 }
 
 .line-2 > .box-line > .links > a#help:hover{
 
-    color: #01cfe6;
+color: #01cfe6;
 }
 
 
@@ -611,33 +630,33 @@ footer .line-2 > .box-line{
 
 .line-2 > .box-line > .links > a#termos{
 
-    width: 130px;
-    position: relative;
-    transition: .2s;
-    
+width: 130px;
+position: relative;
+transition: .2s;
+
 }
 
 .line-2 > .box-line > .links > a#termos::after{
 
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 0;
-    background-color: #01cfe6;
-    width:0px;
-    height: 1px;
-    transition: 0.2s ease-in-out;
-    
+content: '';
+position: absolute;
+top: 20px;
+left: 0;
+background-color: #01cfe6;
+width:0px;
+height: 1px;
+transition: 0.2s ease-in-out;
+
 
 }    
 
 .line-2 > .box-line > .links > a#termos:hover::after{
-    width: 100%;
+width: 100%;
 }
 
 .line-2 > .box-line > .links > a#termos:hover{
 
-    color: #01cfe6;
+color: #01cfe6;
 }
 
 
@@ -647,66 +666,66 @@ footer .line-2 > .box-line{
 
 .line-2 > .box-line > .links > a#politica{
 
-    width: 198px;
-    position: relative;
-    transition: .2s;
-    
+width: 198px;
+position: relative;
+transition: .2s;
+
 }
 
 .line-2 > .box-line > .links > a#politica::after{
 
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 0;
-    background-color: #01cfe6;
-    width:0px;
-    height: 1px;
-    transition: 0.2s ease-in-out;
-    
+content: '';
+position: absolute;
+top: 20px;
+left: 0;
+background-color: #01cfe6;
+width:0px;
+height: 1px;
+transition: 0.2s ease-in-out;
+
 
 }    
 
 .line-2 > .box-line > .links > a#politica:hover::after{
-    width: 100%;
+width: 100%;
 }
 
 .line-2 > .box-line > .links > a#politica:hover{
 
-    color: #01cfe6;
+color: #01cfe6;
 }
 
 /* LINK EMAIL*/
 
 .line-2 > .box-line > .links > a#email{
 
-    width: 264px;
-    position: relative;
-    transition: .2s;
-    
+width: 264px;
+position: relative;
+transition: .2s;
+
 }
 
 .line-2 > .box-line > .links > a#email::after{
 
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 0;
-    background-color: #01cfe6;
-    width:0px;
-    height: 1px;
-    transition: 0.2s ease-in-out;
-    
+content: '';
+position: absolute;
+top: 20px;
+left: 0;
+background-color: #01cfe6;
+width:0px;
+height: 1px;
+transition: 0.2s ease-in-out;
+
 
 }    
 
 .line-2 > .box-line > .links > a#email:hover::after{
-    width: 203px;
+width: 203px;
 }
 
 .line-2 > .box-line > .links > a#email:hover{
 
-    color: #01cfe6;
+color: #01cfe6;
 }
 
 
@@ -714,67 +733,67 @@ footer .line-2 > .box-line{
 
 .line-2 > .box-line > .links > a#telefone{
 
-    width: 142px;
-    position: relative;
-    transition: .2s;
-    
+width: 142px;
+position: relative;
+transition: .2s;
+
 }
 
 .line-2 > .box-line > .links > a#telefone::after{
 
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 0;
-    background-color: #01cfe6;
-    width:0px;
-    height: 1px;
-    transition: 0.2s ease-in-out;
-    
+content: '';
+position: absolute;
+top: 20px;
+left: 0;
+background-color: #01cfe6;
+width:0px;
+height: 1px;
+transition: 0.2s ease-in-out;
+
 
 }    
 
 .line-2 > .box-line > .links > a#telefone:hover::after{
-    width: 100%;
+width: 100%;
 }
 
 .line-2 > .box-line > .links > a#telefone:hover{
 
-    color: #01cfe6;
+color: #01cfe6;
 }
 
 
 .box-line > .btn-redes > a > button > i{
 
-    display: inline;
-    font-size: 2.2em;
-    padding: 5px;
-    
+display: inline;
+font-size: 2.2em;
+padding: 5px;
 
-    
+
+
 }
 
 .box-line > .btn-redes > a > button{
 
-    margin: 0px 10px;
-    color: white;
-    background: #202020;
-    border-radius: 50%;
-    cursor: pointer;
-    border: none;
-    transition: .2s;
-    
+margin: 0px 10px;
+color: white;
+background: #202020;
+border-radius: 50%;
+cursor: pointer;
+border: none;
+transition: .2s;
+
 }
 
 .box-line > .btn-redes > a > button:hover{
 
-    color: #01cfe6;
+color: #01cfe6;
 }
 
 .line-3 > p{
-    font-family: 'roboto';
-    text-align: center;
-    font-size: 1.2em;
+font-family: 'roboto';
+text-align: center;
+font-size: 1.2em;
 }
 
 
