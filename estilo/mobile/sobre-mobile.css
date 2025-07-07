@@ -70,7 +70,7 @@ main > section > article > h1{
     
 }
 
-main > section > article > div{
+main > section > article > div#img{
 
     background: url(../../imagens/eu.png) no-repeat center center;
     background-size: contain;
@@ -96,15 +96,61 @@ main > section > article > div{
 
 }
 
- body >footer{
-    margin: auto;
-    margin-top: 20px;
-    height: 100px;
-    padding: 10px;
-    border-top: 2px solid rgb(0, 83, 110);
-    margin-top: 200px;
+main > section > article > h3{
+
+    color: #01cfe6;
+    font-family: 'ibm';
+    font-size: 2.1em;
+    padding-top: 20px;
+}
+
+main > section > article >  a > button > i{
+
+    display: inline;
+    font-size: 2.2em;
+    padding: 5px;
     
 }
+
+main > section > article > a > button{
+
+    margin-top: 20px;
+    color: white;
+    background: #202020;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    transition: .2s;
+}
+
+main > section > article> a >button:hover{
+
+    color: #04a8ba;
+}
+
+main > section > article >div#versiculo{
+
+   display: block;
+   margin-bottom: 15px;
+   
+  
+   
+    
+}
+
+main > section > article > div#versiculo > p{
+    
+    color: #01cfe6;
+    font-size: 1.2em;
+    font-family: 'ibm';
+    text-align: justify;
+    padding-top: 40px;
+    width: 260px
+    
+}
+
+
+
 footer{
     margin-top: 600px;
     color: white;
