@@ -488,6 +488,50 @@ margin-top: 0px;
 color: white;
 }
 
+.container > .btn-comec-tec > a{
+display:block;
+text-decoration: none;
+color: white;
+margin: auto;
+padding: 10px;
+font-family: 'roboto';
+font-size: 1.2em;
+text-align: center;
+background-color:#04a8ba;
+border-radius: 5px;
+
+width: 200px;
+margin-left: 0px;
+z-index: 2;
+position: absolute;
+top:300px ;
+
+}
+
+.container > .btn-comec-tec > a::before ,.container > .btn-comec > a::after{
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index: -1;
+
+border-radius: 5px;
+opacity: .7;
+}
+
+
+.container > .btn-comec-tec > a:hover::before{
+
+animation: pulsante 1s ease-in-out infinite;
+background-color: #01cfe6;
+}
+
+
+
+
+
 
 
 .container > .btn-comec > a{
