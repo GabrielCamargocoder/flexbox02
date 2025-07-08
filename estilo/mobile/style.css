@@ -124,7 +124,7 @@ main > div.menu> nav > a:hover{
     height: 560px;
     width: 80vw;
     margin-top: 100px;
-    margin-left:50px ;
+    margin-left:60px ;
     margin-bottom: 80px;    
     padding: 10px;
     position: relative;
@@ -166,6 +166,19 @@ main > div.menu> nav > a:hover{
     
     width: 200px;
    
+}
+
+.container#hamburg> .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;   
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
 }
 
 
@@ -221,6 +234,19 @@ main > div.menu> nav > a:hover{
    
 }
 
+.container#gamer > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;   
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
 
 
 .container#manutencao-pc > .img-produto{
@@ -230,6 +256,15 @@ main > div.menu> nav > a:hover{
     height: 150px;
     width: 160px;
    
+}
+
+.container#manutencao-pc > .descricao-produto > h2{
+    color:#01cfe6;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 68vw;
+
 }
 
 
@@ -245,6 +280,19 @@ main > div.menu> nav > a:hover{
    
 }
 
+.container#designer-grafico > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;   
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
 .container#ar > .img-produto{
     background: url(../../imagens/empreend/manut_ar_condic1.webp) no-repeat center center;
     background-size: contain;
@@ -255,6 +303,27 @@ main > div.menu> nav > a:hover{
    
 }
 
+.container#ar > .descricao-produto > h2{
+    color:#01cfe6;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 68vw;
+
+}
+
+.container#ar > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;   
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
 
 
 
@@ -270,6 +339,19 @@ main > div.menu> nav > a:hover{
    
 }
 
+.container#mk1 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 40px;   
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
 
 .container#mk2 > .img-produto{
     background: url(../../imagens/marketing/MarketingDigital2.webp) no-repeat center center;
@@ -281,6 +363,18 @@ main > div.menu> nav > a:hover{
    
 }
 
+.container#mk2 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 40px;   
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
 
 .container#mk3 > .img-produto{
     background: url(../../imagens/marketing/marketing4.webp) no-repeat center center;
@@ -290,6 +384,19 @@ main > div.menu> nav > a:hover{
    
     width: 200px;
    
+}
+
+.container#mk3 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;   
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
 }
 
 
@@ -319,7 +426,27 @@ main > div.menu> nav > a:hover{
    
 }
 
+.container#py1 > .descricao-produto > h2{
+    color:#01cfe6;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 68vw;
 
+}
+
+.container#py1 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;   
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
 
 
 
@@ -333,6 +460,19 @@ main > div.menu> nav > a:hover{
    
 }
 
+.container#py2 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
 
 .container#html1 > .img-produto{
     background: url(../../imagens/tecnologia/htm\ e\ css.png) no-repeat center center;
@@ -342,6 +482,19 @@ main > div.menu> nav > a:hover{
    
     width: 135px;
    
+}
+
+.container#html1 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
 }
 
 
@@ -357,6 +510,19 @@ main > div.menu> nav > a:hover{
    
 }
 
+.container#html2 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
 
 
 .container#java > .img-produto{
@@ -367,6 +533,19 @@ main > div.menu> nav > a:hover{
     
     width: 135px;
    
+}
+
+.container#java > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
 }
 
 
@@ -381,6 +560,18 @@ main > div.menu> nav > a:hover{
    
 }
 
+.container#php1 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
 
 
 
@@ -394,10 +585,28 @@ main > div.menu> nav > a:hover{
    
 }
 
+.container#php2 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
 
+
+.container > .descricao-produto{
+
+    padding-top: 10px;
+}
 
 .container > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 20px;
     font-weight: 500;
     margin-top: 15px;
@@ -409,7 +618,7 @@ main > div.menu> nav > a:hover{
 
     color: white;
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 10px;
 }
 
