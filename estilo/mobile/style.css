@@ -61,7 +61,7 @@ main > .menu > nav{
     flex-flow: row wrap;
     padding-top: 10px;
     width: 80vw;
-    margin-left: 60px;
+    margin-left: 55px;
 
     
     
@@ -121,10 +121,10 @@ main > div.menu> nav > a:hover{
 .container{
    
     
-    height: 410px;
+    height: 560px;
     width: 80vw;
     margin-top: 100px;
-    margin-left:60px ;
+    margin-left:50px ;
     margin-bottom: 80px;    
     padding: 10px;
     position: relative;
@@ -295,7 +295,7 @@ main > div.menu> nav > a:hover{
 
 
 .container#mk4 > .img-produto{
-    background: url(../../imagens/marketing/marketing3.webp) no-repeat center center;
+    background: url(../../imagens/marketing/marketing\ -digital-4.webp) no-repeat center center;
     background-size: cover;
     display: block;
     height: 150px;
@@ -422,12 +422,22 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
 }
 
+.container > .valor-produto> p{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    
+    font-size: 1em;
+    
+    margin-top: -30px; 
+    color: white;
+}
 
 
 
@@ -444,7 +454,7 @@ main > div.menu> nav > a:hover{
     margin-top:-28px;
     width: 160px;
     position: absolute;
-    top: 395px;
+    top: 548px;
     left: 50%;
     transform: translate(-50%);
     
@@ -695,7 +705,7 @@ footer .line-2 > .box-line{
 
 .line-2 > .box-line > .links > a#email{
 
-    width: 220px;
+    width: 200px;
     position: relative;
     transition: .2s;
     
