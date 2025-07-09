@@ -369,6 +369,28 @@ main > div.menu> nav > a:hover{
     padding-bottom: 20px;
 }
 
+.container#injec > .img-produto{
+    background: url(../../imagens/empreend/injecao.webp) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 160px;
+    
+    width: 200px;
+   
+}
+
+.container#injec > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 60px;   
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
 
 
 /* CAPA CURSO DE MARKETING DIGITAL*/

@@ -300,6 +300,16 @@
     color: white;
 }
 
+.container#injec > .img-produto{
+    background: url(../../imagens/empreend/injecao.webp) no-repeat center center;
+    background-size: cover;
+    display: block;
+    height: 190px;
+    float: left;
+    width: 200px;
+
+}
+
 /* CAPA CURSO DE MARKETING DIGITAL*/
 
 .container#mk1 > .img-produto{
