@@ -485,7 +485,7 @@ main > div.menu> nav > a:hover{
 
 .container#py1{
 
-    height: 540px;
+    height: 680px;
 }
 .container#py1 > .img-produto{
     background: url(../../imagens/tecnologia/curso-python1.webp) no-repeat center center;
@@ -513,7 +513,7 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 50px;   
+    margin-top: 60px;   
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -522,7 +522,7 @@ main > div.menu> nav > a:hover{
 
 .container#py2{
 
-    height: 540px;
+    height: 680px;
 }
 
 .container#py2 > .img-produto{
@@ -542,7 +542,7 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -550,7 +550,7 @@ main > div.menu> nav > a:hover{
 
 .container#html1{
 
-    height: 540px;
+    height: 680px;
 }
 
 .container#html1 > .img-produto{
@@ -570,16 +570,24 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
 }
 
+.container#html1 > .descricao-produto > h2{
+    color:#01cfe6;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 68vw;
+
+}
 
 .container#html2{
 
-    height: 540px;
+    height: 680px;
 }
 
 .container#html2 > .img-produto{
@@ -599,7 +607,7 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -607,7 +615,7 @@ main > div.menu> nav > a:hover{
 
 .container#java{
 
-    height: 540px;
+    height: 680px;
 }
 
 .container#java > .img-produto{
@@ -620,6 +628,15 @@ main > div.menu> nav > a:hover{
    
 }
 
+.container#java > .descricao-produto > h2{
+    color:#01cfe6;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 68vw;
+
+}
+
 .container#java > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -627,7 +644,7 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -635,7 +652,7 @@ main > div.menu> nav > a:hover{
 
 .container#php1{
 
-    height: 540px;
+    height: 680px;
 }
 
 .container#php1 > .img-produto{
@@ -664,7 +681,7 @@ main > div.menu> nav > a:hover{
 
 .container#php2{
 
-    height: 540px;
+    height: 680px;
 }
 
 .container#php2 > .img-produto{
@@ -677,6 +694,25 @@ main > div.menu> nav > a:hover{
    
 }
 
+.container#php2 > .descricao-produto > h2{
+    color:#01cfe6;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 68vw;
+
+}
+
+.container#php2 > .descricao-produto  > p{
+
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
+   
+    margin-top: 10px;
+}
+
 .container#php2 > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -684,7 +720,7 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -775,7 +811,7 @@ main > div.menu> nav > a:hover{
     margin-top:-28px;
     width: 160px;
     position: absolute;
-    top: 530px;
+    top: 665px;
     left: 50%;
     transform: translate(-50%);
     
