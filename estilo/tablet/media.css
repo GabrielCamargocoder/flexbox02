@@ -12,7 +12,7 @@
 }
 
 
-@media (min-width: 767px) and (max-width: 1022px) {
+@media (min-width: 767px) and (max-width: 1023px) {
     
     body{
     background-color:#202020;
@@ -231,8 +231,7 @@
 }
 
 .container#manutencao-pc > .descricao-produto > h2{
-    color:#01cfe6;
-    font-family: 'roboto';
+    color:white;
     font-size: 1.6em;
     
     font-weight: 500;
@@ -282,8 +281,7 @@
 }
 
 .container#ar > .descricao-produto > h2{
-    color:#01cfe6;
-    font-family: 'roboto';
+    color:white;
     font-size: 1.6em;
     
     font-weight: 500;
@@ -361,8 +359,7 @@
 }
 
 .container#mk3 > .descricao-produto > h2{
-    color:#01cfe6;
-    font-family: 'roboto';
+    color:white;
     font-size: 1.9em;
     
     font-weight: 500;
@@ -395,8 +392,7 @@
     
 
 .container#mk4 > .descricao-produto > h2{
-    color:#01cfe6;
-    font-family: 'roboto';  
+    color:white;
     font-size: 1.7em;
     
     font-weight: 500;
@@ -422,8 +418,7 @@
 }
 
 .container#py1 > .descricao-produto > h2{
-    color:#01cfe6;
-    font-family: 'roboto';
+    color:white;
     font-size: 1.4em;
     
     font-weight: 500;
@@ -484,8 +479,7 @@
 }
 
 .container#html1 > .descricao-produto > h2{
-    color:#01cfe6;
-    font-family: 'roboto';
+    color:white;
     font-size: 1.8em;
     
     font-weight: 500;
@@ -548,8 +542,7 @@
 
 
 .container#java > .descricao-produto > h2{
-    color:#01cfe6;
-    font-family: 'roboto';
+    color:white;
     font-size: 1.8em;
     
     font-weight: 500;
@@ -641,7 +634,7 @@
 
     color: white;
     text-align: justify;
-    width: 90%;
+    width: 85%;
     height: 100px;
 
 }
