@@ -43,7 +43,7 @@ main > .menu > nav{
 }
 
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1022px) {
 
     header{
     
@@ -134,7 +134,7 @@ main > .menu > nav{
     
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1023px) {
     
     main > .menu > nav{
 

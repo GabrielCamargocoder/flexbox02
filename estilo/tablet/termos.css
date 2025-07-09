@@ -5,7 +5,7 @@
     font-family: 'ibm';
     src: url(../../fontes/IBMPlexSerif-Regular.ttf);
 }
-@media  (min-width:767px) and (max-width:1023px) {
+@media  (min-width:767px) and (max-width:1022px) {
 
 main >  section{
     margin:80px auto;

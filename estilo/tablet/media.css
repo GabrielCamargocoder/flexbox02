@@ -12,7 +12,7 @@
 }
 
 
-@media (min-width: 767px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1022px) {
     
     body{
     background-color:#202020;
@@ -231,7 +231,8 @@
 }
 
 .container#manutencao-pc > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.6em;
     
     font-weight: 500;
@@ -281,7 +282,8 @@
 }
 
 .container#ar > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.6em;
     
     font-weight: 500;
@@ -359,7 +361,8 @@
 }
 
 .container#mk3 > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.9em;
     
     font-weight: 500;
@@ -392,7 +395,8 @@
     
 
 .container#mk4 > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';  
     font-size: 1.7em;
     
     font-weight: 500;
@@ -401,6 +405,11 @@
 
 }
 /* CAPA CURSO TECNOLOGIA*/
+
+.container#py1 {
+
+    height: 440px;
+}
 
 .container#py1 > .img-produto{
     background: url(../../imagens/tecnologia/curso-python1.webp) no-repeat center center;
@@ -413,7 +422,8 @@
 }
 
 .container#py1 > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.4em;
     
     font-weight: 500;
@@ -429,11 +439,14 @@
     text-align: right;  
     font-size: 2.2em;
     margin-right: 10px;
-    margin-top: 145px; 
+    margin-top: 220px; 
     color: white;
 }
 
+.container#py2 {
 
+    height: 440px;
+}
 
 .container#py2 > .img-produto{
     background: url(../../imagens/tecnologia/curso-python2.webp) no-repeat center center;
@@ -445,6 +458,20 @@
    
 }
 
+.container#py2 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 212px; 
+    color: white;
+}
+
+.container#html1 {
+
+    height: 440px;
+}
 
 .container#html1 > .img-produto{
     background: url(../../imagens/tecnologia/htm\ e\ css.png) no-repeat center center;
@@ -457,7 +484,8 @@
 }
 
 .container#html1 > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.8em;
     
     font-weight: 500;
@@ -473,10 +501,14 @@
     text-align: right;  
     font-size: 2.2em;
     margin-right: 10px;
-    margin-top: 140px; 
+    margin-top: 212px; 
     color: white;
 }
 
+.container#html2{
+
+    height: 440px;
+}
 
 .container#html2 > .img-produto{
     background: url(../../imagens/tecnologia/html-css2.png) no-repeat center center;
@@ -488,7 +520,20 @@
    
 }
 
+.container#html2 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 210px; 
+    color: white;
+}
 
+.container#java {
+
+    height: 440px;
+}
 
 .container#java > .img-produto{
     background: url(../../imagens/tecnologia/curso-java.jpg) no-repeat center center;
@@ -500,8 +545,11 @@
    
 }
 
+
+
 .container#java > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.8em;
     
     font-weight: 500;
@@ -518,8 +566,13 @@
     text-align: right;  
     font-size: 2.2em;
     margin-right: 10px;
-    margin-top: 14  0px; 
+    margin-top: 212px; 
     color: white;
+}
+
+.container#php1 {
+
+    height: 440px;
 }
 
 .container#php1 > .img-produto{
@@ -532,7 +585,20 @@
    
 }
 
+.container#php1 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 212px; 
+    color: white;
+}
 
+.container#php2 {
+
+    height: 440px;
+}
 
 
 .container#php2 > .img-produto{
@@ -545,6 +611,15 @@
    
 }
 
+.container#php2 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 212px; 
+    color: white;
+}
 
 .container > .descricao-produto{
     margin-left: 220px;
@@ -553,7 +628,8 @@
 }
 
 .container > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 2em;
     font-weight: 400;
     margin-top: 10px;
@@ -565,7 +641,7 @@
 
     color: white;
     text-align: justify;
-    width: 85%;
+    width: 90%;
     height: 100px;
 
 }
@@ -605,7 +681,7 @@
     border-radius: 5px;
     
     position: absolute;
-    top:310px ;
+    top:385px ;
     left: 10px;
     width: 200px;
     

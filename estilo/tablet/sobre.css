@@ -9,7 +9,7 @@
     font-family: 'roboto';
     src: url(../../fontes/Roboto-VariableFont_wdth\,wght.ttf);
 }
-@media  (min-width:767px) and (max-width:1023px){
+@media  (min-width:767px) and (max-width:1022px){
 
 body{
 
