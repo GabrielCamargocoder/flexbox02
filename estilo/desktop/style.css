@@ -98,7 +98,7 @@ main > div.menu > nav > a::after{
     height: 100%;
     width: 0px;
     z-index: -1;
-    transition: 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
 
 }
 
@@ -121,7 +121,7 @@ main > div.menu > nav > a:hover::after{
      
     
     .container{
-    margin-left: 60%;
+    margin-left: 50%;
     width: 68vw;
     padding: 15px;
     height: 360px;
@@ -132,7 +132,7 @@ main > div.menu > nav > a:hover::after{
     box-shadow: 2px 2px 5px  #0291a4a5;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    transform:translateX(-60%) ;
+    transform:translateX(-50%) ;
 
 }
 
@@ -338,6 +338,11 @@ width: 200px;
 
 /* CAPA CURSO TECNOLOGIA*/
 
+.container#py1{
+
+    height: 380px;
+}
+
 .container#py1 > .img-produto{
 background: url(../../imagens/tecnologia/curso-python1.webp) no-repeat center center;
 background-size: cover;
@@ -359,8 +364,13 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: right;  
 font-size: 2.2em;
 margin-right: 10px;
-margin-top:30px; 
+margin-top:50px; 
 color: white;
+}
+
+.container#py2{
+
+    height: 380px;
 }
 
 .container#py2 > .img-produto{
@@ -371,6 +381,21 @@ height: 180px;
 float: left;
 width: 200px;
 
+}
+
+.container#py2 > .valor-produto > span{
+display: block;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: right;  
+font-size: 2.2em;
+margin-right: 10px;
+margin-top:40px; 
+color: white;
+}
+
+.container#html1{
+
+    height: 380px;
 }
 
 
@@ -390,11 +415,14 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: right;  
 font-size: 2.2em;
 margin-right: 10px;
-margin-top:25px; 
+margin-top:42px; 
 color: white;
 }
 
+.container#html2{
 
+    height: 380px;
+}
 
 .container#html2 > .img-produto{
 background: url(../../imagens/tecnologia/html-css2.png) no-repeat center center;
@@ -406,7 +434,20 @@ width: 200px;
 
 }
 
+.container#html2 > .valor-produto > span{
+display: block;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: right;  
+font-size: 2.2em;
+margin-right: 10px;
+margin-top:40px; 
+color: white;
+}
 
+.container#java{
+
+    height: 380px;
+}
 
 .container#java > .img-produto{
 background: url(../../imagens/tecnologia/curso-java.jpg) no-repeat center center;
@@ -418,6 +459,21 @@ width: 200px;
 
 }
 
+.container#java > .valor-produto > span{
+display: block;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: right;  
+font-size: 2.2em;
+margin-right: 10px;
+margin-top:42px; 
+color: white;
+}
+
+
+.container#php1{
+
+    height: 380px;
+}
 
 .container#php1 > .img-produto{
 background: url(../../imagens/tecnologia/php2.png) no-repeat center center;
@@ -429,8 +485,20 @@ width: 200px;
 
 }
 
+.container#php1 > .valor-produto > span{
+display: block;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: right;  
+font-size: 2.2em;
+margin-right: 10px;
+margin-top:42px; 
+color: white;
+}
 
+.container#php2{
 
+    height: 380px;
+}
 
 .container#php2 > .img-produto{
 background: url(../../imagens/tecnologia/php1.png) no-repeat center center;
@@ -440,6 +508,16 @@ height: 180px;
 float: left;
 width: 200px;
 
+}
+
+.container#php2 > .valor-produto > span{
+display: block;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: right;  
+font-size: 2.2em;
+margin-right: 10px;
+margin-top:42px; 
+color: white;
 }
 
 .container > .descricao-produto{
@@ -462,7 +540,7 @@ margin-left: 10px;
 
 color: white;
 text-align: justify;
-width: 80%;
+width: 85%;
 margin-left: 10px;
 height: 200px;
 
@@ -503,10 +581,10 @@ background-color:#04a8ba;
 border-radius: 5px;
 
 width: 200px;
-margin-left: 0px;
+
 z-index: 2;
 position: absolute;
-top:300px ;
+top:320px ;
 
 }
 
