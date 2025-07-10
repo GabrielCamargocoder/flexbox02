@@ -231,7 +231,8 @@
 }
 
 .container#manutencao-pc > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.6em;
     
     font-weight: 500;
@@ -281,7 +282,8 @@
 }
 
 .container#ar > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.6em;
     
     font-weight: 500;
@@ -359,7 +361,8 @@
 }
 
 .container#mk3 > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.9em;
     
     font-weight: 500;
@@ -392,7 +395,8 @@
     
 
 .container#mk4 > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.7em;
     
     font-weight: 500;
@@ -418,7 +422,8 @@
 }
 
 .container#py1 > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.4em;
     
     font-weight: 500;
@@ -479,7 +484,8 @@
 }
 
 .container#html1 > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.8em;
     
     font-weight: 500;
@@ -542,7 +548,8 @@
 
 
 .container#java > .descricao-produto > h2{
-    color:white;
+    color:#01cfe6;
+    font-family: 'roboto';
     font-size: 1.8em;
     
     font-weight: 500;
