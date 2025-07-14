@@ -1,0 +1,63 @@
+@charset 'UTF-8';
+
+@media(min-width:1023px) {
+
+    @font-face {
+   
+    font-family: 'ibm';
+    src: url(../../fontes/IBMPlexSerif-Regular.ttf);
+}
+
+
+main >  section{
+    margin-top: 80px;
+    margin-left: 135px;    
+    width: 80vw;
+    padding: 12px;
+    margin-bottom: -100px;
+    border-radius:5px;
+    box-shadow: 2px 2px 5px  #0291a4a5;
+}
+    
+main > section > h1{
+    font-family: 'ibm';
+    font-size: 2em;
+    color: #05d9f1;
+    text-indent: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+main > section > h2{
+
+    font-family: 'ibm';
+    color:#04a8ba;
+}
+
+main > section > h3{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 164, 164);
+    margin-top: 10px;
+}
+
+
+main > section > p{
+    color: white;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 10px;
+    padding: 10px;
+}
+
+main > section > p > strong{
+
+    color: #28eaff;
+}
+footer{
+
+    margin-top: 600px;
+}
+}
