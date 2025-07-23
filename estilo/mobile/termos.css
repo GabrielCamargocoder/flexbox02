@@ -9,8 +9,8 @@
 
   main >  section{
         margin-top: 78px;
-        margin-left: 48px;
-        width: 85vw;
+        margin-left: 50px;
+        width: 80vw;
         padding: 12px;
         margin-bottom: -100px;
         border-radius:5px;
@@ -19,11 +19,13 @@
     
 main > section > h1{
     font-family: 'ibm';
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-weight: 600px;
     color: #04a8ba;
     text-indent: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
+    width: 75vw;
 }
 
 
