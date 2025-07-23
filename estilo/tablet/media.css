@@ -119,7 +119,7 @@
   }
 
 
-      
+/*CONTAINER EMPREEND*/   
     
     .container{
         
@@ -137,9 +137,97 @@
 
 }
     
+/*DESCRICAO*/
+
+.container > .descricao-produto{
+    margin-left: 220px;
+    margin-top: -15px;
+
+}
+
+.container > .descricao-produto > h2{
+    color:#01cfe6;
+    font-family: 'roboto';
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.container > .descricao-produto  > p{
+
+    color: white;
+    text-align: justify;
+    width: 85%;
+    height: 100px;
+
+}
+
+
+
+.container > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 135px; 
+    color: white;
+}
+
+.container > .valor-produto> p{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+      
+    font-size: 1.2em;
+    margin-right: 10px;
+    margin-top: 0px; 
+    color: white;
+}
     
    
+/*BOTAO*/
 
+.container > .btn-comec-empreend > a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    font-family: 'roboto';
+    padding: 10px;
+    text-align: center;
+    background-color: #04a8ba;
+    border-radius: 5px;
+    
+    position: absolute;
+    top:310px ;
+    left: 10px;
+    width: 200px;
+   
+    
+      
+}
+
+.container > .btn-comec-empreend > a::before ,.container > .btn-comec > a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    
+    border-radius: 5px;
+    opacity: .7;
+}
+
+.container > .btn-comec-empreend > a:hover::before{
+
+    animation: pulsante 1s ease-in-out infinite;
+    background-color: #01cfe6;
+}
 
 /*CAPA EMPRENDEDORISMO*/
 
@@ -621,53 +709,7 @@
     color: white;
 }
 
-.container > .descricao-produto{
-    margin-left: 220px;
-    margin-top: -15px;
 
-}
-
-.container > .descricao-produto > h2{
-    color:#01cfe6;
-    font-family: 'roboto';
-    font-size: 2em;
-    font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
-.container > .descricao-produto  > p{
-
-    color: white;
-    text-align: justify;
-    width: 85%;
-    height: 100px;
-
-}
-
-
-
-.container > .valor-produto > span{
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: right;  
-    font-size: 2.2em;
-    margin-right: 10px;
-    margin-top: 135px; 
-    color: white;
-}
-
-.container > .valor-produto> p{
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: right;
-      
-    font-size: 1.2em;
-    margin-right: 10px;
-    margin-top: 0px; 
-    color: white;
-}
 
 .container > .btn-comec-tec > a{
     display:block;
@@ -712,38 +754,7 @@
 
 
 
-.container > .btn-comec > a{
-    display:block;
-    text-decoration: none;
-    color: white;
-    margin: auto;
-    font-family: 'roboto';
-    padding: 10px;
-    text-align: center;
-    background-color: #04a8ba;
-    border-radius: 5px;
-    
-    position: absolute;
-    top:310px ;
-    left: 10px;
-    width: 200px;
-   
-    
-      
-}
 
-.container > .btn-comec > a::before ,.container > .btn-comec > a::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    
-    border-radius: 5px;
-    opacity: .7;
-}
 
 @keyframes pulsante {
     100%{
@@ -752,11 +763,7 @@
     }   
 }
 
-.container > .btn-comec > a:hover::before{
 
-    animation: pulsante 1s ease-in-out infinite;
-    background-color: #01cfe6;
-}
 
 
 footer{
