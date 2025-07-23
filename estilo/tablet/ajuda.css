@@ -10,13 +10,12 @@
 
 
 main >  section{
-    margin-top: 80px;
-    margin-left: 85px;    
     width: 80vw;
     padding: 12px;
-    margin-bottom: -100px;
-    border-radius:5px;
     box-shadow: 2px 2px 5px  #0291a4a5;
+   
+    margin-top: 80px;
+    margin-left: 100px;
 }
     
 main > section > h1{
