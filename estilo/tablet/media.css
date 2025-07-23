@@ -159,7 +159,7 @@
 
     color: white;
     text-align: justify;
-    width: 85%;
+    width: 95%;
     height: 100px;
 
 }
@@ -228,6 +228,259 @@
     animation: pulsante 1s ease-in-out infinite;
     background-color: #01cfe6;
 }
+
+
+/*CONTAINER MARK*/
+
+
+   .container-mk{
+        
+    width: 80vw;
+    padding: 20px;
+    height: 360px;
+    margin-top: 100px;
+    margin-left: 102px;
+    margin-bottom: 80px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 2px 2px 5px  #0291a4a5;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container-mk > .img-produto{
+    background:  no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 160px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+/*DESCRICAO*/
+
+.container-mk > .descricao-produto{
+    margin-left: 220px;
+    margin-top: -15px;
+
+}
+
+.container-mk > .descricao-produto > h2{
+    color:#01cfe6;
+    font-family: 'roboto';
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.container-mk > .descricao-produto  > p{
+
+    color: white;
+    text-align: justify;
+    width: 95%;
+    height: 100px;
+
+}
+
+
+
+.container-mk > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 135px; 
+    color: white;
+}
+
+.container-mk > .valor-produto> p{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+      
+    font-size: 1.2em;
+    margin-right: 10px;
+    margin-top: 0px; 
+    color: white;
+}
+    
+   
+/*BOTAO*/
+
+.container-mk > .btn-comec-mark > a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    font-family: 'roboto';
+    padding: 10px;
+    text-align: center;
+    background-color: #04a8ba;
+    border-radius: 5px;
+    
+    position: absolute;
+    top:310px ;
+    left: 10px;
+    width: 200px;
+   
+    
+      
+}
+
+.container-mk > .btn-comec-mark > a::before ,.container-mk > .btn-comec-mark > a::after{
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    
+    border-radius: 5px;
+    opacity: .7;
+}
+
+.container-mk > .btn-comec-mark > a:hover::before{
+
+    animation: pulsante 1s ease-in-out infinite;
+    background-color: #01cfe6;
+}
+
+
+
+
+/*CONTAINER TEC*/
+
+
+   .container-tec{
+        
+    width: 80vw;
+    padding: 20px;
+    height: 360px;
+    margin-top: 100px;
+    margin-left: 102px;
+    margin-bottom: 80px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 2px 2px 5px  #0291a4a5;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container-tec > .img-produto{
+    background:  no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 160px;
+    float: left;
+    width: 200px;
+   
+}
+
+
+/*DESCRICAO*/
+
+.container-tec > .descricao-produto{
+    margin-left: 220px;
+    margin-top: -15px;
+
+}
+
+.container-tec > .descricao-produto > h2{
+    color:#01cfe6;
+    font-family: 'roboto';
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.container-tec > .descricao-produto  > p{
+
+    color: white;
+    text-align: justify;
+    width: 95%;
+    height: 100px;
+
+}
+
+
+
+.container-tec > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 135px; 
+    color: white;
+}
+
+.container-tec > .valor-produto> p{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+      
+    font-size: 1.2em;
+    margin-right: 10px;
+    margin-top: 0px; 
+    color: white;
+}
+    
+   
+/*BOTAO*/
+
+.container-tec > .btn-comec-tec > a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    font-family: 'roboto';
+    padding: 10px;
+    text-align: center;
+    background-color: #04a8ba;
+    border-radius: 5px;
+    
+    position: absolute;
+    top:385px ;
+    left: 10px;
+    width: 200px;
+   
+    
+      
+}
+
+.container-tec > .btn-comec-tec > a::before ,.container-tec > .btn-comec-tec > a::after{
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    
+    border-radius: 5px;
+    opacity: .7;
+}
+
+.container-tec > .btn-comec-tec > a:hover::before{
+
+    animation: pulsante 1s ease-in-out infinite;
+    background-color: #01cfe6;
+}
+
+
+
 
 /*CAPA EMPRENDEDORISMO*/
 
@@ -402,7 +655,7 @@
 
 /* CAPA CURSO DE MARKETING DIGITAL*/
 
-.container#mk1 > .img-produto{
+.container-mk#mk1 > .img-produto{
     background: url(../../imagens/marketing/thumbsingle698b20f.webp) no-repeat center center;
     background-size: contain;
     display: block;
@@ -413,7 +666,7 @@
 }
 
 
-.container#mk2 > .img-produto{
+.container-mk#mk2 > .img-produto{
     background: url(../../imagens/marketing/MarketingDigital2.webp) no-repeat center center;
     background-size: cover;
     display: block;
@@ -427,7 +680,7 @@
 
 
 
-.container#mk3 > .img-produto{
+.container-mk#mk3 > .img-produto{
     background: url(../../imagens/marketing/marketing4.webp) no-repeat center center;
     background-size: contain;
     display: block;
@@ -438,7 +691,7 @@
 }
 
 
-.container#mk3 > .valor-produto > span{
+.container-mk#mk3 > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: right;  
@@ -448,7 +701,7 @@
     color: white;
 }
 
-.container#mk3 > .descricao-produto > h2{
+.container-mk#mk3 > .descricao-produto > h2{
     color:#01cfe6;
     font-family: 'roboto';
     font-size: 1.9em;
@@ -460,7 +713,7 @@
 }
 
 
-.container#mk4 > .img-produto{
+.container-mk#mk4 > .img-produto{
     background: url(../../imagens/marketing/marketing\ -digital-4.webp) no-repeat center center;
     background-size: cover;
     display: block;
@@ -471,7 +724,7 @@
 }
 
 
-.container > .valor-produto > span#valor-mk4{
+.container-mk > .valor-produto > span#valor-mk4{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: right;  
@@ -482,7 +735,7 @@
 }
     
 
-.container#mk4 > .descricao-produto > h2{
+.container-mk#mk4 > .descricao-produto > h2{
     color:#01cfe6;
     font-family: 'roboto';
     font-size: 1.7em;
@@ -494,12 +747,12 @@
 }
 /* CAPA CURSO TECNOLOGIA*/
 
-.container#py1 {
+.container-tec#py1 {
 
     height: 440px;
 }
 
-.container#py1 > .img-produto{
+.container-tec#py1 > .img-produto{
     background: url(../../imagens/tecnologia/curso-python1.webp) no-repeat center center;
     background-size: cover;
     display: block;
@@ -509,7 +762,7 @@
    
 }
 
-.container#py1 > .descricao-produto > h2{
+.container-tec#py1 > .descricao-produto > h2{
     color:#01cfe6;
     font-family: 'roboto';
     font-size: 1.4em;
@@ -521,7 +774,7 @@
 }
 
 
-.container > .valor-produto > span#p1{
+.container-tec > .valor-produto > span#p1{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: right;  
@@ -531,12 +784,12 @@
     color: white;
 }
 
-.container#py2 {
+.container-tec#py2 {
 
-    height: 440px;
+    height: 480px;
 }
 
-.container#py2 > .img-produto{
+.container-tec#py2 > .img-produto{
     background: url(../../imagens/tecnologia/curso-python2.webp) no-repeat center center;
     background-size: contain;
     display: block;
@@ -546,172 +799,18 @@
    
 }
 
-.container#py2 > .valor-produto > span{
+
+.container-tec#py2 > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: right;  
     font-size: 2.2em;
     margin-right: 10px;
-    margin-top: 212px; 
+    margin-top: 250px; 
     color: white;
 }
 
-.container#html1 {
-
-    height: 440px;
-}
-
-.container#html1 > .img-produto{
-    background: url(../../imagens/tecnologia/htm\ e\ css.png) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 190px;
-    float: left;
-    width: 200px;
-   
-}
-
-.container#html1 > .descricao-produto > h2{
-    color:#01cfe6;
-    font-family: 'roboto';
-    font-size: 1.8em;
-    
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
-
-.container > .valor-produto > span#valor-html1{
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: right;  
-    font-size: 2.2em;
-    margin-right: 10px;
-    margin-top: 212px; 
-    color: white;
-}
-
-.container#html2{
-
-    height: 440px;
-}
-
-.container#html2 > .img-produto{
-    background: url(../../imagens/tecnologia/html-css2.png) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 190px;
-    float: left;
-    width: 200px;
-   
-}
-
-.container#html2 > .valor-produto > span{
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: right;  
-    font-size: 2.2em;
-    margin-right: 10px;
-    margin-top: 210px; 
-    color: white;
-}
-
-.container#java {
-
-    height: 440px;
-}
-
-.container#java > .img-produto{
-    background: url(../../imagens/tecnologia/curso-java.jpg) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 160px;
-    float: left;
-    width: 200px;
-   
-}
-
-
-
-.container#java > .descricao-produto > h2{
-    color:#01cfe6;
-    font-family: 'roboto';
-    font-size: 1.8em;
-    
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
-
-
-.container > .valor-produto > span#valor-java{
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: right;  
-    font-size: 2.2em;
-    margin-right: 10px;
-    margin-top: 212px; 
-    color: white;
-}
-
-.container#php1 {
-
-    height: 440px;
-}
-
-.container#php1 > .img-produto{
-    background: url(../../imagens/tecnologia/php2.png) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 160px;
-    float: left;
-    width: 200px;
-   
-}
-
-.container#php1 > .valor-produto > span{
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: right;  
-    font-size: 2.2em;
-    margin-right: 10px;
-    margin-top: 212px; 
-    color: white;
-}
-
-.container#php2 {
-
-    height: 440px;
-}
-
-
-.container#php2 > .img-produto{
-    background: url(../../imagens/tecnologia/php1.png) no-repeat center center;
-    background-size: cover;
-    display: block;
-    height: 160px;
-    float: left;
-    width: 200px;
-   
-}
-
-.container#php2 > .valor-produto > span{
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: right;  
-    font-size: 2.2em;
-    margin-right: 10px;
-    margin-top: 212px; 
-    color: white;
-}
-
-
-
-.container > .btn-comec-tec > a{
+.container-tec#py2 > .btn-comec-tec > a{
     display:block;
     text-decoration: none;
     color: white;
@@ -723,35 +822,216 @@
     border-radius: 5px;
     
     position: absolute;
-    top:385px ;
+    top:425px ;
     left: 10px;
     width: 200px;
+   
     
+      
 }
 
-.container > .btn-comec-tec > a::before ,.container > .btn-comec > a::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
+
+
+
+.container-tec#html1 {
+
+    height: 440px;
+}
+
+.container-tec#html1 > .img-produto{
+    background: url(../../imagens/tecnologia/htm\ e\ css.png) no-repeat center center;
+    background-size: cover;
+    display: block;
+    height: 190px;
+    float: left;
+    width: 200px;
+   
+}
+
+.container-tec#html1 > .descricao-produto > h2{
+    color:#01cfe6;
+    font-family: 'roboto';
+    font-size: 1.8em;
     
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.container-tec > .valor-produto > span#valor-html1{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 212px; 
+    color: white;
+}
+
+.container-tec#html2{
+
+    height: 520px;
+}
+
+.container-tec#html2 > .img-produto{
+    background: url(../../imagens/tecnologia/html-css2.png) no-repeat center center;
+    background-size: cover;
+    display: block;
+    height: 190px;
+    float: left;
+    width: 200px;
+   
+}
+
+.container-tec#html2 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 290px; 
+    color: white;
+}
+
+.container-tec#html2 > .btn-comec-tec > a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    font-family: 'roboto';
+    padding: 10px;
+    text-align: center;
+    background-color: #04a8ba;
     border-radius: 5px;
-    opacity: .7;
+    
+    position: absolute;
+    top:465px ;
+    left: 10px;
+    width: 200px;
+   
+    
+      
 }
 
 
-.container > .btn-comec-tec > a:hover::before{
+.container-tec#java {
 
-    animation: pulsante 1s ease-in-out infinite;
-    background-color: #01cfe6;
+    height: 440px;
+}
+
+.container-tec#java > .img-produto{
+    background: url(../../imagens/tecnologia/curso-java.jpg) no-repeat center center;
+    background-size: cover;
+    display: block;
+    height: 160px;
+    float: left;
+    width: 200px;
+   
 }
 
 
 
+.container-tec#java > .descricao-produto > h2{
+    color:#01cfe6;
+    font-family: 'roboto';
+    font-size: 1.8em;
+    
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
+
+
+
+.container-tec > .valor-produto > span#valor-java{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 212px; 
+    color: white;
+}
+
+.container-tec#php1 {
+
+    height: 440px;
+}
+
+.container-tec#php1 > .img-produto{
+    background: url(../../imagens/tecnologia/php2.png) no-repeat center center;
+    background-size: cover;
+    display: block;
+    height: 160px;
+    float: left;
+    width: 200px;
+   
+}
+
+.container-tec#php1 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 212px; 
+    color: white;
+}
+
+
+
+.container-tec#php2 > .img-produto{
+    background: url(../../imagens/tecnologia/php1.png) no-repeat center center;
+    background-size: cover;
+    display: block;
+    height: 160px;
+    float: left;
+    width: 200px;
+   
+}
+
+.container-tec#php2 > .descricao-produto  > p{
+
+    color: white;
+    text-align: justify;
+    width: 95%;
+    height: 100px;
+    font-size: 17px;
+
+}
+
+.container-tec#php2 > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;  
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-top: 130px; 
+    color: white;
+}
+
+.container-tec#php2 > .btn-comec-tec > a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    font-family: 'roboto';
+    padding: 10px;
+    text-align: center;
+    background-color: #04a8ba;
+    border-radius: 5px;
+    
+    position: absolute;
+    top:305px ;
+    left: 10px;
+    width: 200px;
+   
+    
+      
+}
 
 
 
