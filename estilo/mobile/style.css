@@ -118,13 +118,16 @@ main > div.menu> nav > a:hover{
     color: #003036;
 }
 
+
+/* CONTAINER-EMPREEND*/
+
 .container{
    
     
-    height: 640px;
+    height: 680px;
     width: 80vw;
     margin-top: 100px;
-    margin-left:60px ;
+    margin-left:55px;
     margin-bottom: 80px;    
     padding: 10px;
     position: relative;
@@ -134,13 +137,316 @@ main > div.menu> nav > a:hover{
 }
 
 .container > .img-produto{
-    display: block;
-    background: url(../../imagem_empreend-p.jpg) no-repeat center center;
+    background: no-repeat center center;
     background-size: contain;
+    display: block;
+    height: 140px;
+    margin: 0px auto;
+    width:200px;
    
-    margin: auto;
-    height: 100px;
+}
+
+/*DESCRICAO*/
+
+.container > .descricao-produto{
+
+    padding-top: 10px;
+}
+
+.container > .descricao-produto > h2{
+    color:#01cfe6;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 70vw;
+
+}
+
+.container > .descricao-produto  > p{
+
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+   
+    margin-top: 10px;
+}
+
+
+
+.container > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+.container > .valor-produto> p{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
     
+    font-size: 1em;
+    
+    margin-top: -30px; 
+    color: white;
+}
+
+
+
+/*CONTAINER-MK*/
+
+.container-mk{
+   
+    
+    height: 680px;
+    width: 80vw;
+    margin-top: 100px;
+    margin-left:60px;
+    margin-bottom: 80px;    
+    padding: 10px;
+    position: relative;
+    box-shadow: 2px 2px 5px  #0291a4a5;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container-mk > .img-produto{
+    background: no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 140px;
+    margin: 0px auto;
+    width:200px;
+   
+}
+
+
+
+
+/*DESCRICAO*/
+
+.container-mk > .descricao-produto{
+
+    padding-top: 10px;
+}
+
+.container-mk > .descricao-produto > h2{
+    color:#01cfe6;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 70vw;
+    
+
+}
+
+.container-mk > .descricao-produto  > p{
+
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+   
+    margin-top: 10px;
+}
+
+
+
+.container-mk > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+.container-mk > .valor-produto> p{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    
+    font-size: 1em;
+    
+    margin-top: -30px; 
+    color: white;
+}
+
+
+/*BOTAO*/
+
+
+.container-mk > .btn-comec-mark > a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: 'roboto';
+    background-color:#04a8ba;
+    border-radius: 5px;
+    margin-top:-28px;
+    width: 160px;
+    position: absolute;
+    top: 665px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.container-mk > .btn-comec-mark > a::before ,.container > .btn-comec-mark > a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+    border-radius: 5px;
+    opacity: .7;
+}
+
+
+.container-mk > .btn-comec-mark > a:hover::before{
+
+    animation: pulsante 1s ease-in-out infinite;
+    background-color: #01cfe6;
+}
+
+
+/*CONTAINER-TEC*/
+
+
+.container-tec{
+   
+    
+    height: 700px;
+    width: 80vw;
+    margin-top: 100px;
+    margin-left:55px;
+    margin-bottom: 80px;    
+    padding: 10px;
+    position: relative;
+    box-shadow: 2px 2px 5px  #0291a4a5;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container-tec > .img-produto{
+    background: no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 140px;
+    margin: 0px auto;
+    width:200px;
+   
+}
+
+/*DESCRICAO*/
+
+.container-tec > .descricao-produto{
+
+    padding-top: 10px;
+}
+
+.container-tec > .descricao-produto > h2{
+    color:#01cfe6;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 70vw;
+
+}
+
+.container-tec > .descricao-produto  > p{
+
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+   
+    margin-top: 10px;
+}
+
+
+
+.container-tec > .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+.container-tec > .valor-produto> p{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    
+    font-size: 1em;
+    
+    margin-top: -30px; 
+    color: white;
+}
+
+/*BOTÃO*/
+
+
+.container-tec > .btn-comec-tec > a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: 'roboto';
+    background-color:#04a8ba;
+    border-radius: 5px;
+    margin-top:-28px;
+    width: 160px;
+    position: absolute;
+    top: 665px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.container-tec > .btn-comec-tec > a::before ,.container > .btn-comec > a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+    border-radius: 5px;
+    opacity: .7;
+}
+
+
+.container-tec > .btn-comec-tec > a:hover::before{
+
+    animation: pulsante 1s ease-in-out infinite;
+    background-color: #01cfe6;
 }
 
 
@@ -157,6 +463,21 @@ main > div.menu> nav > a:hover{
     width:200px;
    
 }
+
+.container#gastro> .valor-produto > span{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+   
+    margin-top: 55px;   
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+
 
  .container#hamburg > .img-produto{
     background: url(../../imagens/empreend/curso-de-hamburguer.webp) no-repeat center center;
@@ -175,7 +496,7 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 60px;   
+    margin-top: 75px;   
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -223,7 +544,7 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 50px;   
+    margin-top: 40px;   
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -272,7 +593,7 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 60px;   
+    margin-top: 75px;   
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -291,10 +612,10 @@ main > div.menu> nav > a:hover{
 
 .container#manutencao-pc > .descricao-produto > h2{
     color:#01cfe6;
-    font-size: 19px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 600;
     margin-top: 15px;
-    width: 68vw;
+    width: 75vw;
 
 }
 
@@ -331,7 +652,7 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 60px;   
+    margin-top: 80px;   
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -349,10 +670,10 @@ main > div.menu> nav > a:hover{
 
 .container#ar > .descricao-produto > h2{
     color:#01cfe6;
-    font-size: 19px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     margin-top: 15px;
-    width: 68vw;
+    width: 75vw;
 
 }
 
@@ -363,7 +684,7 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 60px;   
+    margin-top: 80px;   
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -395,7 +716,7 @@ main > div.menu> nav > a:hover{
 
 /* CAPA CURSO DE MARKETING DIGITAL*/
 
-.container#mk1 > .img-produto{
+.container-mk#mk1 > .img-produto{
     background: url(../../imagens/marketing/thumbsingle698b20f.webp) no-repeat center center;
     background-size: contain;
     display: block;
@@ -405,7 +726,7 @@ main > div.menu> nav > a:hover{
    
 }
 
-.container#mk1 > .valor-produto > span{
+.container-mk#mk1 > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
@@ -419,7 +740,7 @@ main > div.menu> nav > a:hover{
 }
 
 
-.container#mk2 > .img-produto{
+.container-mk#mk2 > .img-produto{
     background: url(../../imagens/marketing/MarketingDigital2.webp) no-repeat center center;
     background-size: cover;
     display: block;
@@ -429,7 +750,7 @@ main > div.menu> nav > a:hover{
    
 }
 
-.container#mk2 > .valor-produto > span{
+.container-mk#mk2 > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
@@ -442,7 +763,7 @@ main > div.menu> nav > a:hover{
     padding-bottom: 20px;
 }
 
-.container#mk3 > .img-produto{
+.container-mk#mk3 > .img-produto{
     background: url(../../imagens/marketing/marketing4.webp) no-repeat center center;
     background-size: contain;
     display: block;
@@ -452,7 +773,7 @@ main > div.menu> nav > a:hover{
    
 }
 
-.container#mk3 > .valor-produto > span{
+.container-mk#mk3 > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
@@ -467,7 +788,7 @@ main > div.menu> nav > a:hover{
 
 
 
-.container#mk4 > .img-produto{
+.container-mk#mk4 > .img-produto{
     background: url(../../imagens/marketing/marketing\ -digital-4.webp) no-repeat center center;
     background-size: cover;
     display: block;
@@ -483,11 +804,8 @@ main > div.menu> nav > a:hover{
     
 /* CAPA CURSO TECNOLOGIA*/
 
-.container#py1{
 
-    height: 680px;
-}
-.container#py1 > .img-produto{
+.container-tec#py1 > .img-produto{
     background: url(../../imagens/tecnologia/curso-python1.webp) no-repeat center center;
     background-size: contain;
     display: block;
@@ -497,7 +815,7 @@ main > div.menu> nav > a:hover{
    
 }
 
-.container#py1 > .descricao-produto > h2{
+.container-tec#py1 > .descricao-produto > h2{
     color:#01cfe6;
     font-size: 17px;
     font-weight: 500;
@@ -506,7 +824,7 @@ main > div.menu> nav > a:hover{
 
 }
 
-.container#py1 > .valor-produto > span{
+.container-tec#py1 > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
@@ -520,12 +838,9 @@ main > div.menu> nav > a:hover{
 }
 
 
-.container#py2{
 
-    height: 680px;
-}
 
-.container#py2 > .img-produto{
+.container-tec#py2 > .img-produto{
     background: url(../../imagens/tecnologia/curso-python2.webp) no-repeat center center;
     background-size: contain;
     display: block;
@@ -535,7 +850,7 @@ main > div.menu> nav > a:hover{
    
 }
 
-.container#py2 > .valor-produto > span{
+.container-tec#py2 > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
@@ -548,12 +863,9 @@ main > div.menu> nav > a:hover{
     padding-bottom: 20px;
 }
 
-.container#html1{
 
-    height: 680px;
-}
 
-.container#html1 > .img-produto{
+.container-tec#html1 > .img-produto{
     background: url(../../imagens/tecnologia/htm\ e\ css.png) no-repeat center center;
     background-size: cover;
     display: block;
@@ -563,7 +875,7 @@ main > div.menu> nav > a:hover{
    
 }
 
-.container#html1 > .valor-produto > span{
+.container-tec#html1 > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
@@ -576,7 +888,7 @@ main > div.menu> nav > a:hover{
     padding-bottom: 20px;
 }
 
-.container#html1 > .descricao-produto > h2{
+.container-tec#html1 > .descricao-produto > h2{
     color:#01cfe6;
     font-size: 1.2em;
     font-weight: 500;
@@ -585,12 +897,9 @@ main > div.menu> nav > a:hover{
 
 }
 
-.container#html2{
 
-    height: 680px;
-}
 
-.container#html2 > .img-produto{
+.container-tec#html2 > .img-produto{
     background: url(../../imagens/tecnologia/html-css2.png) no-repeat center center;
     background-size: cover;
     display: block;
@@ -600,7 +909,7 @@ main > div.menu> nav > a:hover{
    
 }
 
-.container#html2 > .valor-produto > span{
+.container-tec#html2 > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
@@ -613,12 +922,9 @@ main > div.menu> nav > a:hover{
     padding-bottom: 20px;
 }
 
-.container#java{
 
-    height: 680px;
-}
 
-.container#java > .img-produto{
+.container-tec#java > .img-produto{
     background: url(../../imagens/tecnologia/curso-java.jpg) no-repeat center center;
     background-size: cover;
     display: block;
@@ -628,7 +934,7 @@ main > div.menu> nav > a:hover{
    
 }
 
-.container#java > .descricao-produto > h2{
+.container-tec#java > .descricao-produto > h2{
     color:#01cfe6;
     font-size: 1.2em;
     font-weight: 500;
@@ -637,7 +943,7 @@ main > div.menu> nav > a:hover{
 
 }
 
-.container#java > .valor-produto > span{
+.container-tec#java > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
@@ -650,12 +956,8 @@ main > div.menu> nav > a:hover{
     padding-bottom: 20px;
 }
 
-.container#php1{
 
-    height: 680px;
-}
-
-.container#php1 > .img-produto{
+.container-tec#php1 > .img-produto{
     background: url(../../imagens/tecnologia/php2.png) no-repeat center center;
     background-size: cover;
     display: block;
@@ -665,7 +967,7 @@ main > div.menu> nav > a:hover{
    
 }
 
-.container#php1 > .valor-produto > span{
+.container-tec#php1 > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
@@ -679,12 +981,9 @@ main > div.menu> nav > a:hover{
 }
 
 
-.container#php2{
 
-    height: 680px;
-}
 
-.container#php2 > .img-produto{
+.container-tec#php2 > .img-produto{
     background: url(../../imagens/tecnologia/php1.png) no-repeat center center;
     background-size: cover;
     display: block;
@@ -694,7 +993,7 @@ main > div.menu> nav > a:hover{
    
 }
 
-.container#php2 > .descricao-produto > h2{
+.container-tec#php2 > .descricao-produto > h2{
     color:#01cfe6;
     font-size: 1.5em;
     font-weight: 500;
@@ -703,7 +1002,7 @@ main > div.menu> nav > a:hover{
 
 }
 
-.container#php2 > .descricao-produto  > p{
+.container-tec#php2 > .descricao-produto  > p{
 
     color: white;
     text-align: justify;
@@ -713,7 +1012,7 @@ main > div.menu> nav > a:hover{
     margin-top: 10px;
 }
 
-.container#php2 > .valor-produto > span{
+.container-tec#php2 > .valor-produto > span{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
@@ -727,59 +1026,10 @@ main > div.menu> nav > a:hover{
 }
 
 
-.container > .descricao-produto{
 
-    padding-top: 10px;
-}
+/* BOTÃO COMEC EMPREEND*/
 
-.container > .descricao-produto > h2{
-    color:#01cfe6;
-    font-family: 'roboto';
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 15px;
-    width: 65vw;
-
-}
-
-.container > .descricao-produto  > p{
-
-    color: white;
-    text-align: justify;
-    font-size: 16px;
-   
-    margin-top: 10px;
-}
-
-
-
-.container > .valor-produto > span{
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: left;
-    color: white;
-    font-weight: 300;
-   
-    margin-top: 15px;
-    margin-bottom: 20px;
-    font-size: 1.5em;
-    padding-bottom: 20px;
-}
-
-.container > .valor-produto> p{
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: left;
-    
-    font-size: 1em;
-    
-    margin-top: -30px; 
-    color: white;
-}
-
-
-
-.container > .btn-comec > a{
+.container > .btn-comec-empreend > a{
     display:block;
     text-decoration: none;
     color: white;
@@ -792,32 +1042,13 @@ main > div.menu> nav > a:hover{
     margin-top:-28px;
     width: 160px;
     position: absolute;
-    top: 628px;
+    top: 670px;
     left: 50%;
     transform: translate(-50%);
     
 }
 
-.container > .btn-comec-tec > a{
-    display:block;
-    text-decoration: none;
-    color: white;
-    margin: auto;
-    padding: 5px;
-    text-align: center;
-    font-family: 'roboto';
-    background-color:#04a8ba;
-    border-radius: 5px;
-    margin-top:-28px;
-    width: 160px;
-    position: absolute;
-    top: 665px;
-    left: 50%;
-    transform: translate(-50%);
-    
-}
-
-.container > .btn-comec-tec > a::before ,.container > .btn-comec > a::after{
+.container > .btn-comec-empreend > a::before ,.container > .btn-comec-empreend > a::after{
     content: "";
     position: absolute;
     width: 100%;
@@ -831,25 +1062,22 @@ main > div.menu> nav > a:hover{
 }
 
 
-.container > .btn-comec-tec > a:hover::before{
+.container > .btn-comec-empreend > a:hover::before{
 
     animation: pulsante 1s ease-in-out infinite;
     background-color: #01cfe6;
 }
 
 
-.container > .btn-comec > a::before ,.container > .btn-comec > a::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    
-    border-radius: 5px;
-    opacity: .7;
-}
+
+
+
+
+
+
+
+
+
 
 @keyframes pulsante {
     100%{
@@ -892,7 +1120,7 @@ footer .line-1 {
     text-align: center;
     color: #01cfe6;
     font-size: 1.5rem;
-    width: 85vw;
+    width: 78vw;
     
     
 }
