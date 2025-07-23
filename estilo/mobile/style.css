@@ -333,7 +333,7 @@ main > div.menu> nav > a:hover{
 .container-tec{
    
     
-    height: 700px;
+    height: 720px;
     width: 80vw;
     margin-top: 100px;
     margin-left:55px;
@@ -423,7 +423,7 @@ main > div.menu> nav > a:hover{
     margin-top:-28px;
     width: 160px;
     position: absolute;
-    top: 665px;
+    top: 710px;
     left: 50%;
     transform: translate(-50%);
     
@@ -890,8 +890,8 @@ main > div.menu> nav > a:hover{
 
 .container-tec#html1 > .descricao-produto > h2{
     color:#01cfe6;
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 1.1em;
+    font-weight: 600;
     margin-top: 15px;
     width: 68vw;
 
@@ -936,8 +936,8 @@ main > div.menu> nav > a:hover{
 
 .container-tec#java > .descricao-produto > h2{
     color:#01cfe6;
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 1.0em;
+    font-weight: 600;
     margin-top: 15px;
     width: 68vw;
 
@@ -1006,7 +1006,7 @@ main > div.menu> nav > a:hover{
 
     color: white;
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
    
     margin-top: 10px;
@@ -1019,7 +1019,7 @@ main > div.menu> nav > a:hover{
     color: white;
     font-weight: 300;
    
-    margin-top: 80px;
+    margin-top: 90px;
     margin-bottom: 20px;
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -1278,7 +1278,7 @@ footer .line-2 > .box-line{
 
 .line-2 > .box-line > .links > a#politica{
 
-    width: 198px;
+    width: 180px;
     position: relative;
     transition: .2s;
     
@@ -1311,7 +1311,7 @@ footer .line-2 > .box-line{
 
 .line-2 > .box-line > .links > a#email{
 
-    width: 200px;
+    width: 180px;
     position: relative;
     transition: .2s;
     
